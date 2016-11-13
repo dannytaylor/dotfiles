@@ -1,0 +1,53 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+
+xset m 1 1 &
+
+#xrandr --dpi 96 &
+
+redshift-gtk &
+
+compton &
+
+nitrogen --restore &
+#hsetroot -solid '#6095c2' &
+
+#tint2 &
+/home/dt/bin/lemonbar/panel
+
+
+plank &
+
+#pulseaudio &
+
+#volti &
+
+dropbox &
+
+steam &
+
+clipit &
+
+connman-gtk &
+
+skippy-xd --start-daemon &
+
+indicator-kdeconnect &
+
+
+mpd
+
+
+

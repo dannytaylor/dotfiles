@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# bar
+COLOUR_FG1="#EFEFEF"
+COLOUR_FG2="#F3BFD9"
+COLOUR_BG1="#ee262626"
+COLOUR_BG2="#ee363636"
+COLOUR_HL1="#72CBDD"
+COLOUR_HL2="#f7a0ff"
+
+FONT1="lime"
+FONT2="siji"
+ 

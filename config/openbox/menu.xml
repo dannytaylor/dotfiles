@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="apps-net-menu" label="internet">
+		<item label="yac">
+			<action name="Execute">
+				<command>YACReaderLibrary</command>
+			</action>
+		</item>
+		<item label="discord">
+			<action name="Execute">
+				<command>discord</command>
+			</action>
+		</item>
+		<item label="mumble">
+			<action name="Execute">
+				<command>mumble</command>
+			</action>
+		</item>
+		<item label="firefox">
+			<action name="Execute">
+				<command>firefox</command>
+			</action>
+		</item>
+		<item label="skype">
+			<action name="Execute">
+				<command>skype</command>
+			</action>
+		</item>
+		<item label="ums">
+			<action name="Execute">
+				<command>ums</command>
+			</action>
+		</item>
+		<item label="qbittorrent">
+			<action name="Execute">
+				<command>qbittorrent</command>
+			</action>
+		</item>
+		<item label="twitch">
+			<action name="Execute">
+				<command>livestreamer-twitch-gui</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-art-menu" label="art">
+		<item label="azpainter">
+			<action name="Execute">
+				<command>azpainter</command>
+			</action>
+		</item>
+		<item label="azdrawing">
+			<action name="Execute">
+				<command>azdrawing</command>
+			</action>
+		</item>
+		<item label="blender">
+			<action name="Execute">
+				<command>blender</command>
+			</action>
+		</item>
+		<item label="opentoonz">
+			<action name="Execute">
+				<command>opentoonz</command>
+			</action>
+		</item>
+		<item label="inkscape">
+			<action name="Execute">
+				<command>inkscape</command>
+			</action>
+		</item>
+		<item label="krita">
+			<action name="Execute">
+				<command>krita</command>
+			</action>
+		</item>
+		<item label="mypaint">
+			<action name="Execute">
+				<command>mypaint</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-games-menu" label="games">
+		<item label="steam">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="itch.io">
+			<action name="Execute">
+				<command>itch</command>
+			</action>
+		</item>
+		<item label="openttd">
+			<action name="Execute">
+				<command>openttd</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="system-menu" label="sys">
+		<item label="keepass">
+			<action name="Execute">
+				<command>keepass</command>
+			</action>
+		</item>
+		<item label="libreoffice">
+			<action name="Execute">
+				<execute>libreoffice</execute>
+			</action>
+		</item>
+		<item label="xterm">
+			<action name="Execute">
+				<execute>xterm</execute>
+			</action>
+		</item>
+		<item label="character map">
+			<action name="Execute">
+				<command>gucharmap</command>
+			</action>
+		</item>
+		<item label="lxappearance">
+			<action name="Execute">
+				<command>lxappearance</command>
+			</action>
+		</item>
+		<item label="nitrogen">
+			<action name="Execute">
+				<command>nitrogen</command>
+			</action>
+		</item>
+		<item label="restart-lemonbar">
+			<action name="Execute">
+				<command>/home/dt/bin/restart-bar</command>
+			</action>
+		</item>
+		<item label="reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+	</menu>
+	
+	<menu id="root-menu" label="Openbox">
+		<item label="term">
+			<action name="Execute">
+				<execute>termite</execute>
+			</action>
+		</item>
+		<menu id="file-menu" label="files" execute="obfilebrowser ~ --no-parent --cache"/>
+		<item label="web">
+			<action name="Execute">
+				<command>google-chrome-stable</command>
+			</action>
+		</item>
+		<menu id="root-menu-194058" label="dev">
+			<item label="atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="vscode">
+				<action name="Execute">
+					<execute>vscode</execute>
+				</action>
+			</item>
+			<item label="gitkraken">
+				<action name="Execute">
+					<execute>gitkraken</execute>
+				</action>
+			</item>
+			<item label="geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="godot">
+				<action name="Execute">
+					<execute>godot</execute>
+				</action>
+			</item>
+			<item label="polycode">
+				<action name="Execute">
+					<execute>polycode</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="apps-net-menu"/>
+		<menu id="apps-accessories-menu"/>
+		<menu id="apps-editors-menu"/>
+		<menu id="apps-graphics-menu"/>
+		<menu id="apps-games-menu"/>
+		<menu id="apps-art-menu"/>
+		<menu id="apps-multimedia-menu"/>
+		<menu id="apps-term-menu"/>
+		<menu id="apps-fileman-menu"/>
+		<menu id="system-menu"/>
+		<separator/>
+		<menu id="proc-menu" label="weather" execute="/home/dt/bin/obweather" />
+		<item label="logout">
+		    <action name="Execute">
+		        <execute>
+		            oblogout
+		        </execute>
+		    </action>
+		</item>
+</openbox_menu>

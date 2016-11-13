@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pkill lemonbar
+killall tint2
+killall skippy-xd
+skippy-xd --start-daemon &
+/home/dt/bin/lemonbar/panel &
+

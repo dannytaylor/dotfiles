@@ -1,0 +1,44 @@
+[options]
+font = 9
+icon_name = terminal
+
+[colors]
+
+# special
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #ffffff
+background      = #181816
+
+# black
+color0  = #201310
+color8  = #602e31
+
+# red
+color1  = #6092a0
+color9  = #5486c8
+
+# green
+color2  = #447ca0
+color10 = #fad5a7
+
+# yellow
+color3  = #e04857
+color11 = #f2726b
+
+# blue
+color4  = #a06772
+color12 = #c89cc0
+
+# magenta
+color5  = #a28c81
+color13 = #c1c8c8
+
+# cyan
+color6  = #c47769
+color14 = #f6b58d
+
+# white
+color7  = #4a65a0
+color15 = #6285c8
+

@@ -54,7 +54,7 @@ tray() {
 }
 
 volume() {
-    echo -e "%{A:termite -e pulsemixer&:}\ue094%{A}"
+    echo -e "%{A:pavucontrol&:}\ue094%{A}"
 }
 
 clock() {
@@ -85,7 +85,7 @@ while :; do
     sleep 0.2
 done |
 
-lemonbar -a 32 -g "1740x24+32" -f "$FONT1" -f "$FONT2" -F "$COLOUR_FG1" -B "$COLOUR_BG1" | sh &
+lemonbar -a 32 -g "1680x24+32" -f "$FONT1" -f "$FONT2" -F "$COLOUR_FG1" -B "$COLOUR_BG1" | sh &
 tint2 -c /home/dt/bin/lemonbar/tintLeft &  
 tint2 -c /home/dt/bin/lemonbar/tintRight &
 

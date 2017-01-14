@@ -36,8 +36,6 @@ plank &
 
 dropbox &
 
-steam &
-
 clipit &
 
 connman-gtk &
@@ -46,6 +44,9 @@ skippy-xd --start-daemon &
 
 indicator-kdeconnect &
 
+guake &
+
+steam-native &
 
 mpd
 

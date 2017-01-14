@@ -7,7 +7,7 @@ border_color = #FFFFFF 93
 # Panel
 panel_monitor = all
 panel_position = top right horizontal
-panel_size = 148 24
+panel_size = 208 24
 panel_margin = 0 0
 panel_padding = 4 0 4
 panel_dock = 0

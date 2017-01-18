@@ -19,7 +19,7 @@ panel_items = FEE
 
 
 execp = new
-execp_command = printf "\ue1f1" 
+execp_command = printf " // " 
 execp_interval = 0
 execp_centered = 1
 execp_lclick_command = xdotool key super+space

@@ -1,0 +1,713 @@
+2017-02-07 21:47:59	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:47:59	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-07 21:47:59	--	Welcome, GLHF!
+2017-02-07 21:47:59	--	Your host is tmi.twitch.tv
+2017-02-07 21:47:59	--	This server is rather new
+2017-02-07 21:47:59	--	-
+2017-02-07 21:47:59	--	-
+2017-02-07 21:47:59	--	You are in a maze of twisty passages, all alike.
+2017-02-07 21:47:59	--	>
+2017-02-07 21:49:03	=!=	irc: "part" command can only be executed in a channel or private buffer
+2017-02-07 21:50:58	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:50:58	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-07 21:50:58	--	Welcome, GLHF!
+2017-02-07 21:50:58	--	Your host is tmi.twitch.tv
+2017-02-07 21:50:58	--	This server is rather new
+2017-02-07 21:50:58	--	-
+2017-02-07 21:50:58	--	-
+2017-02-07 21:50:58	--	You are in a maze of twisty passages, all alike.
+2017-02-07 21:50:58	--	>
+2017-02-07 21:55:47	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:55:47	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-07 21:55:48	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:56:56	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:56:57	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-07 21:56:57	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:57:10	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:57:10	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-07 21:57:10	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:57:20	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2017-02-07 21:57:20	--	irc: disconnecting from server...
+2017-02-07 21:57:20	--	irc: disconnected from server
+2017-02-07 21:57:20	--	irc: reconnecting to server in 10 seconds
+2017-02-07 21:57:30	--	irc: reconnecting to server...
+2017-02-07 21:57:30	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:57:30	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-07 21:57:30	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:57:34	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:57:34	--	irc: connected to irc.twitch.tv/6667 (52.34.130.18)
+2017-02-07 21:57:34	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:57:44	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2017-02-07 21:57:44	--	irc: disconnecting from server...
+2017-02-07 21:57:44	--	irc: disconnected from server
+2017-02-07 21:57:44	--	irc: reconnecting to server in 10 seconds
+2017-02-07 21:57:54	--	irc: reconnecting to server...
+2017-02-07 21:57:54	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:57:54	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-07 21:57:54	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:58:04	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2017-02-07 21:58:04	--	irc: disconnecting from server...
+2017-02-07 21:58:04	--	irc: disconnected from server
+2017-02-07 21:58:04	--	irc: reconnecting to server in 20 seconds
+2017-02-07 21:58:24	--	irc: reconnecting to server...
+2017-02-07 21:58:24	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 21:58:24	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-07 21:58:24	--	tmi.twitch.tv: Login authentication failed
+2017-02-07 21:58:34	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2017-02-07 21:58:34	--	irc: disconnecting from server...
+2017-02-07 21:58:34	--	irc: disconnected from server
+2017-02-07 21:58:34	--	irc: reconnecting to server in 40 seconds
+2017-02-07 22:02:34	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:02:35	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-07 22:02:35	--	Welcome, GLHF!
+2017-02-07 22:02:35	--	Your host is tmi.twitch.tv
+2017-02-07 22:02:35	--	This server is rather new
+2017-02-07 22:02:35	--	-
+2017-02-07 22:02:35	--	-
+2017-02-07 22:02:35	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:02:35	--	>
+2017-02-07 22:02:56	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:02:56	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-07 22:02:56	--	Welcome, GLHF!
+2017-02-07 22:02:56	--	Your host is tmi.twitch.tv
+2017-02-07 22:02:56	--	This server is rather new
+2017-02-07 22:02:56	--	-
+2017-02-07 22:02:56	--	-
+2017-02-07 22:02:56	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:02:56	--	>
+2017-02-07 22:03:24	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:03:24	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-07 22:03:24	--	Welcome, GLHF!
+2017-02-07 22:03:24	--	Your host is tmi.twitch.tv
+2017-02-07 22:03:24	--	This server is rather new
+2017-02-07 22:03:24	--	-
+2017-02-07 22:03:24	--	-
+2017-02-07 22:03:24	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:03:24	--	>
+2017-02-07 22:03:35	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:03:36	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-07 22:03:36	--	Welcome, GLHF!
+2017-02-07 22:03:36	--	Your host is tmi.twitch.tv
+2017-02-07 22:03:36	--	This server is rather new
+2017-02-07 22:03:36	--	-
+2017-02-07 22:03:36	--	-
+2017-02-07 22:03:36	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:03:36	--	>
+2017-02-07 22:03:51	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:03:51	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-07 22:03:51	--	Welcome, GLHF!
+2017-02-07 22:03:51	--	Your host is tmi.twitch.tv
+2017-02-07 22:03:51	--	This server is rather new
+2017-02-07 22:03:51	--	-
+2017-02-07 22:03:51	--	-
+2017-02-07 22:03:51	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:03:51	--	>
+2017-02-07 22:06:21	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:06:21	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-07 22:06:21	--	Welcome, GLHF!
+2017-02-07 22:06:21	--	Your host is tmi.twitch.tv
+2017-02-07 22:06:21	--	This server is rather new
+2017-02-07 22:06:21	--	-
+2017-02-07 22:06:21	--	-
+2017-02-07 22:06:21	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:06:21	--	>
+2017-02-07 22:06:31	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:06:32	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-07 22:06:32	--	Welcome, GLHF!
+2017-02-07 22:06:32	--	Your host is tmi.twitch.tv
+2017-02-07 22:06:32	--	This server is rather new
+2017-02-07 22:06:32	--	-
+2017-02-07 22:06:32	--	-
+2017-02-07 22:06:32	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:06:32	--	>
+2017-02-07 22:07:02	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:07:02	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-07 22:07:02	--	Welcome, GLHF!
+2017-02-07 22:07:02	--	Your host is tmi.twitch.tv
+2017-02-07 22:07:02	--	This server is rather new
+2017-02-07 22:07:02	--	-
+2017-02-07 22:07:02	--	-
+2017-02-07 22:07:02	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:07:02	--	>
+2017-02-07 22:07:15	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:07:16	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-07 22:07:16	--	Welcome, GLHF!
+2017-02-07 22:07:16	--	Your host is tmi.twitch.tv
+2017-02-07 22:07:16	--	This server is rather new
+2017-02-07 22:07:16	--	-
+2017-02-07 22:07:16	--	-
+2017-02-07 22:07:16	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:07:16	--	>
+2017-02-07 22:07:31	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:07:31	--	irc: connected to irc.twitch.tv/6667 (52.34.130.18)
+2017-02-07 22:07:31	--	Welcome, GLHF!
+2017-02-07 22:07:31	--	Your host is tmi.twitch.tv
+2017-02-07 22:07:31	--	This server is rather new
+2017-02-07 22:07:31	--	-
+2017-02-07 22:07:31	--	-
+2017-02-07 22:07:31	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:07:31	--	>
+2017-02-07 22:07:41	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:07:41	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-07 22:07:41	--	Welcome, GLHF!
+2017-02-07 22:07:41	--	Your host is tmi.twitch.tv
+2017-02-07 22:07:41	--	This server is rather new
+2017-02-07 22:07:41	--	-
+2017-02-07 22:07:41	--	-
+2017-02-07 22:07:41	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:07:41	--	>
+2017-02-07 22:07:59	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:07:59	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-07 22:07:59	--	Welcome, GLHF!
+2017-02-07 22:07:59	--	Your host is tmi.twitch.tv
+2017-02-07 22:07:59	--	This server is rather new
+2017-02-07 22:07:59	--	-
+2017-02-07 22:07:59	--	-
+2017-02-07 22:07:59	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:07:59	--	>
+2017-02-07 22:08:16	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:08:16	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-07 22:08:17	--	Welcome, GLHF!
+2017-02-07 22:08:17	--	Your host is tmi.twitch.tv
+2017-02-07 22:08:17	--	This server is rather new
+2017-02-07 22:08:17	--	-
+2017-02-07 22:08:17	--	-
+2017-02-07 22:08:17	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:08:17	--	>
+2017-02-07 22:17:41	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:17:42	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-07 22:17:42	--	Welcome, GLHF!
+2017-02-07 22:17:42	--	Your host is tmi.twitch.tv
+2017-02-07 22:17:42	--	This server is rather new
+2017-02-07 22:17:42	--	-
+2017-02-07 22:17:42	--	-
+2017-02-07 22:17:42	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:17:42	--	>
+2017-02-07 22:19:29	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:19:30	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-07 22:19:30	--	Welcome, GLHF!
+2017-02-07 22:19:30	--	Your host is tmi.twitch.tv
+2017-02-07 22:19:30	--	This server is rather new
+2017-02-07 22:19:30	--	-
+2017-02-07 22:19:30	--	-
+2017-02-07 22:19:30	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:19:30	--	>
+2017-02-07 22:20:55	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:20:55	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-07 22:20:55	--	Welcome, GLHF!
+2017-02-07 22:20:55	--	Your host is tmi.twitch.tv
+2017-02-07 22:20:55	--	This server is rather new
+2017-02-07 22:20:55	--	-
+2017-02-07 22:20:55	--	-
+2017-02-07 22:20:55	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:20:55	--	>
+2017-02-07 22:23:57	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 22:23:57	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-07 22:23:57	--	Welcome, GLHF!
+2017-02-07 22:23:57	--	Your host is tmi.twitch.tv
+2017-02-07 22:23:57	--	This server is rather new
+2017-02-07 22:23:57	--	-
+2017-02-07 22:23:57	--	-
+2017-02-07 22:23:57	--	You are in a maze of twisty passages, all alike.
+2017-02-07 22:23:57	--	>
+2017-02-07 23:40:24	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 23:40:24	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-07 23:40:25	--	Welcome, GLHF!
+2017-02-07 23:40:25	--	Your host is tmi.twitch.tv
+2017-02-07 23:40:25	--	This server is rather new
+2017-02-07 23:40:25	--	-
+2017-02-07 23:40:25	--	-
+2017-02-07 23:40:25	--	You are in a maze of twisty passages, all alike.
+2017-02-07 23:40:25	--	>
+2017-02-07 23:41:43	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-07 23:41:43	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-07 23:41:43	--	Welcome, GLHF!
+2017-02-07 23:41:43	--	Your host is tmi.twitch.tv
+2017-02-07 23:41:43	--	This server is rather new
+2017-02-07 23:41:43	--	-
+2017-02-07 23:41:43	--	-
+2017-02-07 23:41:43	--	You are in a maze of twisty passages, all alike.
+2017-02-07 23:41:43	--	>
+2017-02-07 23:41:43	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-07 23:46:24	=!=	irc: this buffer is not a channel!
+2017-02-07 23:46:30	=!=	irc: this buffer is not a channel!
+2017-02-07 23:46:36	=!=	irc: this buffer is not a channel!
+2017-02-07 23:46:43	=!=	irc: this buffer is not a channel!
+2017-02-07 23:47:25	=!=	irc: this buffer is not a channel!
+2017-02-07 23:50:15	=!=	irc: this buffer is not a channel!
+2017-02-08 00:06:54	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 00:06:54	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-08 00:06:54	--	Welcome, GLHF!
+2017-02-08 00:06:54	--	Your host is tmi.twitch.tv
+2017-02-08 00:06:54	--	This server is rather new
+2017-02-08 00:06:54	--	-
+2017-02-08 00:06:54	--	-
+2017-02-08 00:06:54	--	You are in a maze of twisty passages, all alike.
+2017-02-08 00:06:54	--	>
+2017-02-08 00:06:55	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 00:26:43	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2017-02-08 00:26:43	--	irc: disconnecting from server...
+2017-02-08 00:26:43	--	irc: disconnected from server
+2017-02-08 00:26:43	--	irc: reconnecting to server in 10 seconds
+2017-02-08 00:36:12	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 00:36:13	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-08 00:36:13	--	Welcome, GLHF!
+2017-02-08 00:36:13	--	Your host is tmi.twitch.tv
+2017-02-08 00:36:13	--	This server is rather new
+2017-02-08 00:36:13	--	-
+2017-02-08 00:36:13	--	-
+2017-02-08 00:36:13	--	You are in a maze of twisty passages, all alike.
+2017-02-08 00:36:13	--	>
+2017-02-08 00:36:13	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 01:04:04	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 01:04:05	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-08 01:04:05	--	Welcome, GLHF!
+2017-02-08 01:04:05	--	Your host is tmi.twitch.tv
+2017-02-08 01:04:05	--	This server is rather new
+2017-02-08 01:04:05	--	-
+2017-02-08 01:04:05	--	-
+2017-02-08 01:04:05	--	You are in a maze of twisty passages, all alike.
+2017-02-08 01:04:05	--	>
+2017-02-08 01:04:05	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 01:12:45	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 01:12:45	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-08 01:12:46	--	Welcome, GLHF!
+2017-02-08 01:12:46	--	Your host is tmi.twitch.tv
+2017-02-08 01:12:46	--	This server is rather new
+2017-02-08 01:12:46	--	-
+2017-02-08 01:12:46	--	-
+2017-02-08 01:12:46	--	You are in a maze of twisty passages, all alike.
+2017-02-08 01:12:46	--	>
+2017-02-08 01:12:46	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 01:42:30	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 01:42:30	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-08 01:42:30	--	Welcome, GLHF!
+2017-02-08 01:42:30	--	Your host is tmi.twitch.tv
+2017-02-08 01:42:30	--	This server is rather new
+2017-02-08 01:42:30	--	-
+2017-02-08 01:42:30	--	-
+2017-02-08 01:42:30	--	You are in a maze of twisty passages, all alike.
+2017-02-08 01:42:30	--	>
+2017-02-08 01:42:30	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 13:06:57	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 13:06:57	--	irc: connected to irc.twitch.tv/6667 (52.34.130.18)
+2017-02-08 13:06:58	--	Welcome, GLHF!
+2017-02-08 13:06:58	--	Your host is tmi.twitch.tv
+2017-02-08 13:06:58	--	This server is rather new
+2017-02-08 13:06:58	--	-
+2017-02-08 13:06:58	--	-
+2017-02-08 13:06:58	--	You are in a maze of twisty passages, all alike.
+2017-02-08 13:06:58	--	>
+2017-02-08 13:06:58	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 22:43:37	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 22:43:38	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-08 22:43:38	--	Welcome, GLHF!
+2017-02-08 22:43:38	--	Your host is tmi.twitch.tv
+2017-02-08 22:43:38	--	This server is rather new
+2017-02-08 22:43:38	--	-
+2017-02-08 22:43:38	--	-
+2017-02-08 22:43:38	--	You are in a maze of twisty passages, all alike.
+2017-02-08 22:43:38	--	>
+2017-02-08 22:43:38	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 22:50:01	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 22:50:02	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-08 22:50:02	--	Welcome, GLHF!
+2017-02-08 22:50:02	--	Your host is tmi.twitch.tv
+2017-02-08 22:50:02	--	This server is rather new
+2017-02-08 22:50:02	--	-
+2017-02-08 22:50:02	--	-
+2017-02-08 22:50:02	--	You are in a maze of twisty passages, all alike.
+2017-02-08 22:50:02	--	>
+2017-02-08 22:50:02	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 22:52:58	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 22:52:58	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-08 22:52:58	--	Welcome, GLHF!
+2017-02-08 22:52:58	--	Your host is tmi.twitch.tv
+2017-02-08 22:52:58	--	This server is rather new
+2017-02-08 22:52:58	--	-
+2017-02-08 22:52:58	--	-
+2017-02-08 22:52:58	--	You are in a maze of twisty passages, all alike.
+2017-02-08 22:52:58	--	>
+2017-02-08 22:52:58	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 23:07:10	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 23:07:10	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-08 23:07:10	--	Welcome, GLHF!
+2017-02-08 23:07:10	--	Your host is tmi.twitch.tv
+2017-02-08 23:07:10	--	This server is rather new
+2017-02-08 23:07:10	--	-
+2017-02-08 23:07:10	--	-
+2017-02-08 23:07:10	--	You are in a maze of twisty passages, all alike.
+2017-02-08 23:07:10	--	>
+2017-02-08 23:07:10	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-08 23:17:46	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-08 23:17:46	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-08 23:17:47	--	Welcome, GLHF!
+2017-02-08 23:17:47	--	Your host is tmi.twitch.tv
+2017-02-08 23:17:47	--	This server is rather new
+2017-02-08 23:17:47	--	-
+2017-02-08 23:17:47	--	-
+2017-02-08 23:17:47	--	You are in a maze of twisty passages, all alike.
+2017-02-08 23:17:47	--	>
+2017-02-08 23:17:47	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 11:01:20	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 11:01:20	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-09 11:01:20	--	Welcome, GLHF!
+2017-02-09 11:01:20	--	Your host is tmi.twitch.tv
+2017-02-09 11:01:20	--	This server is rather new
+2017-02-09 11:01:20	--	-
+2017-02-09 11:01:20	--	-
+2017-02-09 11:01:20	--	You are in a maze of twisty passages, all alike.
+2017-02-09 11:01:20	--	>
+2017-02-09 11:01:20	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 13:12:20	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 13:12:21	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-09 13:12:21	--	Welcome, GLHF!
+2017-02-09 13:12:21	--	Your host is tmi.twitch.tv
+2017-02-09 13:12:21	--	This server is rather new
+2017-02-09 13:12:21	--	-
+2017-02-09 13:12:21	--	-
+2017-02-09 13:12:21	--	You are in a maze of twisty passages, all alike.
+2017-02-09 13:12:21	--	>
+2017-02-09 13:12:21	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:15:57	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:15:57	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-09 14:15:57	--	Welcome, GLHF!
+2017-02-09 14:15:57	--	Your host is tmi.twitch.tv
+2017-02-09 14:15:57	--	This server is rather new
+2017-02-09 14:15:57	--	-
+2017-02-09 14:15:57	--	-
+2017-02-09 14:15:57	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:15:57	--	>
+2017-02-09 14:15:57	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:43:54	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:43:55	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-09 14:43:55	--	Welcome, GLHF!
+2017-02-09 14:43:55	--	Your host is tmi.twitch.tv
+2017-02-09 14:43:55	--	This server is rather new
+2017-02-09 14:43:55	--	-
+2017-02-09 14:43:55	--	-
+2017-02-09 14:43:55	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:43:55	--	>
+2017-02-09 14:43:55	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:49:55	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:49:55	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-09 14:49:55	--	Welcome, GLHF!
+2017-02-09 14:49:55	--	Your host is tmi.twitch.tv
+2017-02-09 14:49:55	--	This server is rather new
+2017-02-09 14:49:55	--	-
+2017-02-09 14:49:55	--	-
+2017-02-09 14:49:55	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:49:55	--	>
+2017-02-09 14:49:55	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:50:15	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:50:15	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-09 14:50:15	--	Welcome, GLHF!
+2017-02-09 14:50:15	--	Your host is tmi.twitch.tv
+2017-02-09 14:50:15	--	This server is rather new
+2017-02-09 14:50:15	--	-
+2017-02-09 14:50:15	--	-
+2017-02-09 14:50:15	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:50:15	--	>
+2017-02-09 14:50:15	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:53:08	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:53:08	--	irc: connected to irc.twitch.tv/6667 (52.34.130.18)
+2017-02-09 14:53:08	--	Welcome, GLHF!
+2017-02-09 14:53:08	--	Your host is tmi.twitch.tv
+2017-02-09 14:53:08	--	This server is rather new
+2017-02-09 14:53:08	--	-
+2017-02-09 14:53:08	--	-
+2017-02-09 14:53:08	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:53:08	--	>
+2017-02-09 14:53:08	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:53:28	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:53:29	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-09 14:53:29	--	Welcome, GLHF!
+2017-02-09 14:53:29	--	Your host is tmi.twitch.tv
+2017-02-09 14:53:29	--	This server is rather new
+2017-02-09 14:53:29	--	-
+2017-02-09 14:53:29	--	-
+2017-02-09 14:53:29	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:53:29	--	>
+2017-02-09 14:53:29	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:54:44	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:54:44	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-09 14:54:44	--	Welcome, GLHF!
+2017-02-09 14:54:44	--	Your host is tmi.twitch.tv
+2017-02-09 14:54:44	--	This server is rather new
+2017-02-09 14:54:44	--	-
+2017-02-09 14:54:44	--	-
+2017-02-09 14:54:44	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:54:44	--	>
+2017-02-09 14:54:44	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:55:12	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:55:12	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-09 14:55:12	--	Welcome, GLHF!
+2017-02-09 14:55:12	--	Your host is tmi.twitch.tv
+2017-02-09 14:55:12	--	This server is rather new
+2017-02-09 14:55:12	--	-
+2017-02-09 14:55:12	--	-
+2017-02-09 14:55:12	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:55:12	--	>
+2017-02-09 14:55:12	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:56:01	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:56:02	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-09 14:56:02	--	Welcome, GLHF!
+2017-02-09 14:56:02	--	Your host is tmi.twitch.tv
+2017-02-09 14:56:02	--	This server is rather new
+2017-02-09 14:56:02	--	-
+2017-02-09 14:56:02	--	-
+2017-02-09 14:56:02	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:56:02	--	>
+2017-02-09 14:56:02	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:58:21	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:58:21	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-09 14:58:21	--	Welcome, GLHF!
+2017-02-09 14:58:21	--	Your host is tmi.twitch.tv
+2017-02-09 14:58:21	--	This server is rather new
+2017-02-09 14:58:21	--	-
+2017-02-09 14:58:21	--	-
+2017-02-09 14:58:21	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:58:21	--	>
+2017-02-09 14:58:21	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:58:34	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:58:34	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-09 14:58:34	--	Welcome, GLHF!
+2017-02-09 14:58:34	--	Your host is tmi.twitch.tv
+2017-02-09 14:58:34	--	This server is rather new
+2017-02-09 14:58:34	--	-
+2017-02-09 14:58:34	--	-
+2017-02-09 14:58:34	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:58:34	--	>
+2017-02-09 14:58:34	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:58:38	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:58:38	--	irc: connected to irc.twitch.tv/6667 (35.167.244.71)
+2017-02-09 14:58:38	--	Welcome, GLHF!
+2017-02-09 14:58:38	--	Your host is tmi.twitch.tv
+2017-02-09 14:58:38	--	This server is rather new
+2017-02-09 14:58:38	--	-
+2017-02-09 14:58:38	--	-
+2017-02-09 14:58:38	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:58:38	--	>
+2017-02-09 14:58:38	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 14:59:42	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 14:59:42	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-09 14:59:43	--	Welcome, GLHF!
+2017-02-09 14:59:43	--	Your host is tmi.twitch.tv
+2017-02-09 14:59:43	--	This server is rather new
+2017-02-09 14:59:43	--	-
+2017-02-09 14:59:43	--	-
+2017-02-09 14:59:43	--	You are in a maze of twisty passages, all alike.
+2017-02-09 14:59:43	--	>
+2017-02-09 14:59:43	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 15:01:37	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 15:01:37	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-09 15:01:37	--	Welcome, GLHF!
+2017-02-09 15:01:37	--	Your host is tmi.twitch.tv
+2017-02-09 15:01:37	--	This server is rather new
+2017-02-09 15:01:37	--	-
+2017-02-09 15:01:37	--	-
+2017-02-09 15:01:37	--	You are in a maze of twisty passages, all alike.
+2017-02-09 15:01:37	--	>
+2017-02-09 15:01:37	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 15:02:17	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 15:02:17	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-09 15:02:17	--	Welcome, GLHF!
+2017-02-09 15:02:17	--	Your host is tmi.twitch.tv
+2017-02-09 15:02:17	--	This server is rather new
+2017-02-09 15:02:17	--	-
+2017-02-09 15:02:17	--	-
+2017-02-09 15:02:17	--	You are in a maze of twisty passages, all alike.
+2017-02-09 15:02:17	--	>
+2017-02-09 15:02:17	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-09 15:02:30	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-09 15:02:31	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-09 15:02:31	--	Welcome, GLHF!
+2017-02-09 15:02:31	--	Your host is tmi.twitch.tv
+2017-02-09 15:02:31	--	This server is rather new
+2017-02-09 15:02:31	--	-
+2017-02-09 15:02:31	--	-
+2017-02-09 15:02:31	--	You are in a maze of twisty passages, all alike.
+2017-02-09 15:02:31	--	>
+2017-02-09 15:02:31	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-10 18:03:12	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-10 18:03:13	--	irc: connected to irc.twitch.tv/6667 (35.163.87.217)
+2017-02-10 18:03:13	--	Welcome, GLHF!
+2017-02-10 18:03:13	--	Your host is tmi.twitch.tv
+2017-02-10 18:03:13	--	This server is rather new
+2017-02-10 18:03:13	--	-
+2017-02-10 18:03:13	--	-
+2017-02-10 18:03:13	--	You are in a maze of twisty passages, all alike.
+2017-02-10 18:03:13	--	>
+2017-02-10 18:03:13	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-10 20:12:25	=!=	irc: "msg *" command can only be executed in a channel or private buffer
+2017-02-11 02:38:26	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-11 02:38:26	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-11 02:38:27	--	Welcome, GLHF!
+2017-02-11 02:38:27	--	Your host is tmi.twitch.tv
+2017-02-11 02:38:27	--	This server is rather new
+2017-02-11 02:38:27	--	-
+2017-02-11 02:38:27	--	-
+2017-02-11 02:38:27	--	You are in a maze of twisty passages, all alike.
+2017-02-11 02:38:27	--	>
+2017-02-11 02:38:27	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-11 04:21:28	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-11 04:21:28	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-11 04:21:29	--	Welcome, GLHF!
+2017-02-11 04:21:29	--	Your host is tmi.twitch.tv
+2017-02-11 04:21:29	--	This server is rather new
+2017-02-11 04:21:29	--	-
+2017-02-11 04:21:29	--	-
+2017-02-11 04:21:29	--	You are in a maze of twisty passages, all alike.
+2017-02-11 04:21:29	--	>
+2017-02-11 04:21:29	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-11 10:49:44	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-11 10:49:44	--	irc: connected to irc.twitch.tv/6667 (52.25.27.117)
+2017-02-11 10:49:44	--	Welcome, GLHF!
+2017-02-11 10:49:44	--	Your host is tmi.twitch.tv
+2017-02-11 10:49:44	--	This server is rather new
+2017-02-11 10:49:44	--	-
+2017-02-11 10:49:44	--	-
+2017-02-11 10:49:44	--	You are in a maze of twisty passages, all alike.
+2017-02-11 10:49:44	--	>
+2017-02-11 10:49:44	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-11 12:11:08	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-11 12:11:09	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-11 12:11:09	--	Welcome, GLHF!
+2017-02-11 12:11:09	--	Your host is tmi.twitch.tv
+2017-02-11 12:11:09	--	This server is rather new
+2017-02-11 12:11:09	--	-
+2017-02-11 12:11:09	--	-
+2017-02-11 12:11:09	--	You are in a maze of twisty passages, all alike.
+2017-02-11 12:11:09	--	>
+2017-02-11 12:11:09	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-12 11:32:41	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-12 11:32:42	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-12 11:32:42	--	Welcome, GLHF!
+2017-02-12 11:32:42	--	Your host is tmi.twitch.tv
+2017-02-12 11:32:42	--	This server is rather new
+2017-02-12 11:32:42	--	-
+2017-02-12 11:32:42	--	-
+2017-02-12 11:32:42	--	You are in a maze of twisty passages, all alike.
+2017-02-12 11:32:42	--	>
+2017-02-12 11:32:42	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-12 16:19:47	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-12 16:19:47	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-12 16:19:47	--	Welcome, GLHF!
+2017-02-12 16:19:47	--	Your host is tmi.twitch.tv
+2017-02-12 16:19:47	--	This server is rather new
+2017-02-12 16:19:47	--	-
+2017-02-12 16:19:47	--	-
+2017-02-12 16:19:47	--	You are in a maze of twisty passages, all alike.
+2017-02-12 16:19:47	--	>
+2017-02-12 16:19:47	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-13 10:42:47	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-13 10:42:47	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-13 10:42:47	--	Welcome, GLHF!
+2017-02-13 10:42:47	--	Your host is tmi.twitch.tv
+2017-02-13 10:42:47	--	This server is rather new
+2017-02-13 10:42:47	--	-
+2017-02-13 10:42:47	--	-
+2017-02-13 10:42:47	--	You are in a maze of twisty passages, all alike.
+2017-02-13 10:42:47	--	>
+2017-02-13 10:42:47	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-13 22:41:45	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-13 22:41:46	--	irc: connected to irc.twitch.tv/6667 (52.89.163.88)
+2017-02-13 22:41:46	--	Welcome, GLHF!
+2017-02-13 22:41:46	--	Your host is tmi.twitch.tv
+2017-02-13 22:41:46	--	This server is rather new
+2017-02-13 22:41:46	--	-
+2017-02-13 22:41:46	--	-
+2017-02-13 22:41:46	--	You are in a maze of twisty passages, all alike.
+2017-02-13 22:41:46	--	>
+2017-02-13 22:41:46	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-14 13:41:34	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-14 13:41:34	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-14 13:41:34	--	Welcome, GLHF!
+2017-02-14 13:41:34	--	Your host is tmi.twitch.tv
+2017-02-14 13:41:34	--	This server is rather new
+2017-02-14 13:41:34	--	-
+2017-02-14 13:41:34	--	-
+2017-02-14 13:41:34	--	You are in a maze of twisty passages, all alike.
+2017-02-14 13:41:34	--	>
+2017-02-14 13:41:34	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-14 14:50:23	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-14 14:50:23	--	irc: connected to irc.twitch.tv/6667 (35.160.173.203)
+2017-02-14 14:50:23	--	Welcome, GLHF!
+2017-02-14 14:50:23	--	Your host is tmi.twitch.tv
+2017-02-14 14:50:23	--	This server is rather new
+2017-02-14 14:50:23	--	-
+2017-02-14 14:50:23	--	-
+2017-02-14 14:50:23	--	You are in a maze of twisty passages, all alike.
+2017-02-14 14:50:23	--	>
+2017-02-14 14:50:23	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-14 17:26:59	--	WHOIS: Unknown command
+2017-02-15 01:35:15	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-15 01:35:15	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-15 01:35:15	--	Welcome, GLHF!
+2017-02-15 01:35:15	--	Your host is tmi.twitch.tv
+2017-02-15 01:35:15	--	This server is rather new
+2017-02-15 01:35:15	--	-
+2017-02-15 01:35:15	--	-
+2017-02-15 01:35:15	--	You are in a maze of twisty passages, all alike.
+2017-02-15 01:35:15	--	>
+2017-02-15 01:35:15	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-15 11:00:53	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-15 11:00:53	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-15 11:00:53	--	Welcome, GLHF!
+2017-02-15 11:00:53	--	Your host is tmi.twitch.tv
+2017-02-15 11:00:53	--	This server is rather new
+2017-02-15 11:00:53	--	-
+2017-02-15 11:00:53	--	-
+2017-02-15 11:00:53	--	You are in a maze of twisty passages, all alike.
+2017-02-15 11:00:53	--	>
+2017-02-15 11:00:53	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-15 21:13:32	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-15 21:13:32	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-15 21:13:32	--	Welcome, GLHF!
+2017-02-15 21:13:32	--	Your host is tmi.twitch.tv
+2017-02-15 21:13:32	--	This server is rather new
+2017-02-15 21:13:32	--	-
+2017-02-15 21:13:32	--	-
+2017-02-15 21:13:32	--	You are in a maze of twisty passages, all alike.
+2017-02-15 21:13:32	--	>
+2017-02-15 21:13:32	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-16 01:38:56	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-16 01:38:56	--	irc: connected to irc.twitch.tv/6667 (52.24.91.39)
+2017-02-16 01:38:56	--	Welcome, GLHF!
+2017-02-16 01:38:56	--	Your host is tmi.twitch.tv
+2017-02-16 01:38:56	--	This server is rather new
+2017-02-16 01:38:56	--	-
+2017-02-16 01:38:56	--	-
+2017-02-16 01:38:56	--	You are in a maze of twisty passages, all alike.
+2017-02-16 01:38:56	--	>
+2017-02-16 01:38:56	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-16 11:38:09	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-16 11:38:10	--	irc: connected to irc.twitch.tv/6667 (52.88.18.148)
+2017-02-16 11:38:10	--	Welcome, GLHF!
+2017-02-16 11:38:10	--	Your host is tmi.twitch.tv
+2017-02-16 11:38:10	--	This server is rather new
+2017-02-16 11:38:10	--	-
+2017-02-16 11:38:10	--	-
+2017-02-16 11:38:10	--	You are in a maze of twisty passages, all alike.
+2017-02-16 11:38:10	--	>
+2017-02-16 11:38:10	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-16 17:05:27	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-16 17:05:27	--	irc: connected to irc.twitch.tv/6667 (52.89.61.45)
+2017-02-16 17:05:27	--	Welcome, GLHF!
+2017-02-16 17:05:27	--	Your host is tmi.twitch.tv
+2017-02-16 17:05:27	--	This server is rather new
+2017-02-16 17:05:27	--	-
+2017-02-16 17:05:27	--	-
+2017-02-16 17:05:27	--	You are in a maze of twisty passages, all alike.
+2017-02-16 17:05:27	--	>
+2017-02-16 17:05:27	--	irc: client capability, enabled: twitch.tv/membership
+2017-02-16 17:18:02	--	irc: connecting to server irc.twitch.tv/6667...
+2017-02-16 17:18:03	--	irc: connected to irc.twitch.tv/6667 (52.25.187.175)
+2017-02-16 17:18:03	--	Welcome, GLHF!
+2017-02-16 17:18:03	--	Your host is tmi.twitch.tv
+2017-02-16 17:18:03	--	This server is rather new
+2017-02-16 17:18:03	--	-
+2017-02-16 17:18:03	--	-
+2017-02-16 17:18:03	--	You are in a maze of twisty passages, all alike.
+2017-02-16 17:18:03	--	>
+2017-02-16 17:18:03	--	irc: client capability, enabled: twitch.tv/membership

@@ -11,10 +11,10 @@ groups() {
     for i in 0 1 2 3; do
       if [ $i -eq $cur ]
       then
-		line="${line}\ue000 "
+		line="${line} "
         #line="${line}%{F$COLOUR_HL2}\ue000 %{F-}"
       else
-        line="${line}%{A:xdotool set_desktop $i:}\ue001 %{A}"
+        line="${line}%{A:xdotool set_desktop $i:} %{A}"
       fi
     done
     echo -e "%{F$COLOUR_FG1}$line"
@@ -22,25 +22,25 @@ groups() {
 
 window() {
   win=`xtitle -t 42`
-  echo -e " %{A:skippy-xd --activate-window-picker:}%{B$COLOUR_BG1}$p\ue0b9 $win%{A}"
+  echo -e " %{A:skippy-xd --activate-window-picker:}%{B$COLOUR_BG1}$p \ue0b9 $win%{A}"
 }
 
 music() {
   cur=`mpc`
   song=`mpc current`
-  nex="%{A:mpc -q next:}\ue09d %{A}"
+  nex="%{A:mpc -q next:} %{A}"
   click="%{A:mpc -q toggle:}%{A2:termite -e ncmpcpp:}%{A3:mpc -q stop:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:}"
   clickend="%{A}%{A}%{A}%{A}%{A}"
   if [[ $cur == *"playing"* ]]
   then
-    mus="\ue0fe";
+    mus="";
   elif [[ $cur == *"paused"* ]]
   then
-    mus="\ue09b"
+    mus=""
   else
-    mus="\ue099"
+    mus=""
   fi
-  echo -e "$click$mus$clickend"
+  echo -e "$click$mus $clickend"
 }
 
 
@@ -49,12 +49,12 @@ tray() {
   if [[ $? -ne 0 ]] ; then
           echo -e "%{A:tint2 -c /home/dt/bin/lemonbar/tint2_bar&:}\ue195%{A}"
         else
-          echo -e "%{A:killall tint2:}\ue193%{A}"
+          echo -e "%{A:killall tint2:}%{A}"
   fi
 }
 
 volume() {
-    echo -e "%{A:pavucontrol&:}\ue094%{A}"
+    echo -e "%{A:xfce4-terminal -e pulsemixer&:} %{A}"
 }
 
 clock() {
@@ -64,11 +64,11 @@ clock() {
 
 
 pacheck() {
-    echo -e "%{A:termite -e yaourt -Syua&& kill:}\ue14d%{A}"
+    echo -e "%{A:termite -e yaourt -Syua&& kill:}%{A}"
 }
 
 launcher() {
-    echo -e "%{A:/home/dt/bin/lemonbar/obpanelmenu.sh:}%{F$COLOUR_BG1}%{B$COLOUR_FG2} \ue1f1 %{F-}%{B-}%{A}"
+    echo -e "%{A:/home/dt/bin/lemonbar/obpanelmenu.sh:}%{F$COLOUR_BG1}%{B$COLOUR_FG2}  %{F-}%{B-}%{A}"
 }
 
 

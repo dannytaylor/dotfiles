@@ -13,6 +13,11 @@
 #fi
 
 
+xset +fp /home/dt/.fonts&
+
+xset fp rehash&
+
+
 xset m 1 1 &
 
 #xrandr --dpi 96 &
@@ -38,7 +43,7 @@ dropbox &
 
 clipit &
 
-connman-gtk &
+#connman-gtk &
 
 skippy-xd --start-daemon &
 
@@ -46,11 +51,11 @@ indicator-kdeconnect &
 
 guake &
 
-steam-native &
+steam &
 
 /home/dt/bin/tablet-settings.sh &
 
-mpd
+mpd &
 
 
 

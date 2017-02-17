@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if ! pgrep -x "weechat" > /dev/null
+then
+	xfce4-terminal -e weechat &
+	sleep 2
+fi
+
+echo '*/join #'$1 > ~/.weechat/weechat_fifo_*

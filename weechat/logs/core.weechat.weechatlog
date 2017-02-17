@@ -1,0 +1,1219 @@
+2017-02-07 21:46:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:46:43		irc: server twitch added
+2017-02-07 21:46:48	=!=	irc: server "twitch" already exists, can't add it!
+2017-02-07 21:46:54	=!=	Error with command "/server remove twitch" (help on command: /help server)
+2017-02-07 21:46:59		[core]
+2017-02-07 21:46:59		  away     debug    key      proxy    set      window 
+2017-02-07 21:46:59		  bar      eval     layout   quit     unset  
+2017-02-07 21:46:59		  buffer   filter   mouse    reload   upgrade
+2017-02-07 21:46:59		  color    help     mute     repeat   uptime 
+2017-02-07 21:46:59		  command  history  plugin   save     version
+2017-02-07 21:46:59		  cursor   input    print    secure   wait   
+2017-02-07 21:46:59		[charset]
+2017-02-07 21:46:59		  charset
+2017-02-07 21:46:59		[relay]
+2017-02-07 21:46:59		  relay
+2017-02-07 21:46:59		[exec]
+2017-02-07 21:46:59		  exec
+2017-02-07 21:46:59		[irc]
+2017-02-07 21:46:59		  admin       ison        part        squit     
+2017-02-07 21:46:59		  allchan     join        ping        stats     
+2017-02-07 21:46:59		  allpv       kick        pong        summon    
+2017-02-07 21:46:59		  allserv     kickban     query       time      
+2017-02-07 21:46:59		  ban         kill        quiet       topic     
+2017-02-07 21:46:59		  cap         links       quote       trace     
+2017-02-07 21:46:59		  connect     list        reconnect   unban     
+2017-02-07 21:46:59		  ctcp        lusers      rehash      unquiet   
+2017-02-07 21:46:59		  cycle       map         remove      userhost  
+2017-02-07 21:46:59		  dcc         me          restart     users     
+2017-02-07 21:46:59		  dehalfop    mode        sajoin      version   
+2017-02-07 21:46:59		  deop        motd        samode      voice     
+2017-02-07 21:46:59		  devoice     msg         sanick      wallchops 
+2017-02-07 21:46:59		  die         names       sapart      wallops   
+2017-02-07 21:46:59		  disconnect  nick        saquit      who       
+2017-02-07 21:46:59		  halfop      notice      server      whois     
+2017-02-07 21:46:59		  ignore      notify      service     whowas    
+2017-02-07 21:46:59		  info        op          servlist  
+2017-02-07 21:46:59		  invite      oper        squery    
+2017-02-07 21:46:59		[fifo]
+2017-02-07 21:46:59		  fifo
+2017-02-07 21:46:59		[logger]
+2017-02-07 21:46:59		  logger
+2017-02-07 21:46:59		[python]
+2017-02-07 21:46:59		  python
+2017-02-07 21:46:59		[xfer]
+2017-02-07 21:46:59		  me  xfer
+2017-02-07 21:46:59		[tcl]
+2017-02-07 21:46:59		  tcl
+2017-02-07 21:46:59		[script]
+2017-02-07 21:46:59		  script
+2017-02-07 21:46:59		[guile]
+2017-02-07 21:46:59		  guile
+2017-02-07 21:46:59		[trigger]
+2017-02-07 21:46:59		  trigger
+2017-02-07 21:46:59		[perl]
+2017-02-07 21:46:59		  perl
+2017-02-07 21:46:59		[javascript]
+2017-02-07 21:46:59		  javascript
+2017-02-07 21:46:59		[alias]
+2017-02-07 21:46:59		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2017-02-07 21:46:59		  alias    C        J        MUB      T        WI     
+2017-02-07 21:46:59		  AME      CHAT     K        N        UB       WII    
+2017-02-07 21:46:59		  AMSG     CL       KB       Q        UMODE    WW     
+2017-02-07 21:46:59		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2017-02-07 21:46:59		  BEEP     EXIT     M        SAY      W      
+2017-02-07 21:46:59		[ruby]
+2017-02-07 21:46:59		  ruby
+2017-02-07 21:46:59		[lua]
+2017-02-07 21:46:59		  lua
+2017-02-07 21:46:59		[aspell]
+2017-02-07 21:46:59		  aspell
+2017-02-07 21:47:13		[irc]  /server  list|listfull [<server>]
+2017-02-07 21:47:13		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 21:47:13		                copy|rename <server> <new_name>
+2017-02-07 21:47:13		                reorder <server> [<server>...]
+2017-02-07 21:47:13		                del|keep <server>
+2017-02-07 21:47:13		                deloutq|jump|raw
+2017-02-07 21:47:13		list, add or remove IRC servers
+2017-02-07 21:47:13		    list: list servers (without argument, this list is displayed)
+2017-02-07 21:47:13		listfull: list servers with detailed info for each server
+2017-02-07 21:47:13		     add: add a new server
+2017-02-07 21:47:13		  server: server name, for internal and display use
+2017-02-07 21:47:13		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 21:47:13		    temp: add a temporary server (not saved)
+2017-02-07 21:47:13		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 21:47:13		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 21:47:13		    copy: duplicate a server
+2017-02-07 21:47:13		  rename: rename a server
+2017-02-07 21:47:13		 reorder: reorder list of servers
+2017-02-07 21:47:13		    keep: keep server in config file (for temporary servers only)
+2017-02-07 21:47:13		     del: delete a server
+2017-02-07 21:47:13		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 21:47:13		    jump: jump to server buffer
+2017-02-07 21:47:13		     raw: open buffer with raw IRC data
+2017-02-07 21:47:13		Examples:
+2017-02-07 21:47:13		  /server listfull
+2017-02-07 21:47:13		  /server add freenode chat.freenode.net
+2017-02-07 21:47:13		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 21:47:13		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 21:47:13		  /server copy freenode freenode-test
+2017-02-07 21:47:13		  /server rename freenode-test freenode2
+2017-02-07 21:47:13		  /server reorder freenode2 freenode
+2017-02-07 21:47:13		  /server del freenode
+2017-02-07 21:47:13		  /server deloutq
+2017-02-07 21:47:27		irc: server twitch has been deleted
+2017-02-07 21:47:50		irc: server twitch added
+2017-02-07 21:48:52		Buffers list:
+2017-02-07 21:48:52		  [1] core.weechat (notify: all)
+2017-02-07 21:48:52		  [1] irc.server.twitch (notify: all)
+2017-02-07 21:48:52		  [2] irc.twitch.moonmoon_ow (notify: all)
+2017-02-07 21:48:52		  [3] irc.twitch.#moonmoon_ow (notify: all)
+2017-02-07 21:49:59		Options saved to sec.conf
+2017-02-07 21:49:59		Options saved to weechat.conf
+2017-02-07 21:49:59		Options saved to plugins.conf
+2017-02-07 21:49:59		Options saved to charset.conf
+2017-02-07 21:49:59		Options saved to logger.conf
+2017-02-07 21:49:59		Options saved to exec.conf
+2017-02-07 21:49:59		Options saved to trigger.conf
+2017-02-07 21:49:59		Options saved to aspell.conf
+2017-02-07 21:49:59		Options saved to alias.conf
+2017-02-07 21:49:59		Options saved to xfer.conf
+2017-02-07 21:49:59		Options saved to irc.conf
+2017-02-07 21:49:59		Options saved to relay.conf
+2017-02-07 21:49:59		Options saved to script.conf
+2017-02-07 21:50:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:50:39	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-02-07 21:50:46	=!=	You can not write text in this buffer
+2017-02-07 21:50:56	=!=	irc: unable to add temporary server "twithc" because the addition of temporary servers with command /connect is currently disabled
+2017-02-07 21:50:56	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2017-02-07 21:52:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:52:36	=!=	You can not write text in this buffer
+2017-02-07 21:52:41		[irc]  /server  list|listfull [<server>]
+2017-02-07 21:52:41		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 21:52:41		                copy|rename <server> <new_name>
+2017-02-07 21:52:41		                reorder <server> [<server>...]
+2017-02-07 21:52:41		                del|keep <server>
+2017-02-07 21:52:41		                deloutq|jump|raw
+2017-02-07 21:52:41		list, add or remove IRC servers
+2017-02-07 21:52:41		    list: list servers (without argument, this list is displayed)
+2017-02-07 21:52:41		listfull: list servers with detailed info for each server
+2017-02-07 21:52:41		     add: add a new server
+2017-02-07 21:52:41		  server: server name, for internal and display use
+2017-02-07 21:52:41		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 21:52:41		    temp: add a temporary server (not saved)
+2017-02-07 21:52:41		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 21:52:41		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 21:52:41		    copy: duplicate a server
+2017-02-07 21:52:41		  rename: rename a server
+2017-02-07 21:52:41		 reorder: reorder list of servers
+2017-02-07 21:52:41		    keep: keep server in config file (for temporary servers only)
+2017-02-07 21:52:41		     del: delete a server
+2017-02-07 21:52:41		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 21:52:41		    jump: jump to server buffer
+2017-02-07 21:52:41		     raw: open buffer with raw IRC data
+2017-02-07 21:52:41		Examples:
+2017-02-07 21:52:41		  /server listfull
+2017-02-07 21:52:41		  /server add freenode chat.freenode.net
+2017-02-07 21:52:41		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 21:52:41		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 21:52:41		  /server copy freenode freenode-test
+2017-02-07 21:52:41		  /server rename freenode-test freenode2
+2017-02-07 21:52:41		  /server reorder freenode2 freenode
+2017-02-07 21:52:41		  /server del freenode
+2017-02-07 21:52:41		  /server deloutq
+2017-02-07 21:53:11	=!=	Error with command "/server twitch -autoconnect" (help on command: /help server)
+2017-02-07 21:54:11	=!=	Error: option "twitch.autoconnect" not found
+2017-02-07 21:54:18	=!=	Error: option "irc.twitch.autoconnect" not found
+2017-02-07 21:54:37	=!=	Error: option "irc.twitch.tvautoconnect" not found
+2017-02-07 21:54:41	=!=	Error: option "irc.twitch.tv.autoconnect" not found
+2017-02-07 21:54:54		irc: server twitch has been deleted
+2017-02-07 21:55:38		irc: server twitch added
+2017-02-07 21:55:41		Options saved to sec.conf
+2017-02-07 21:55:41		Options saved to weechat.conf
+2017-02-07 21:55:41		Options saved to plugins.conf
+2017-02-07 21:55:41		Options saved to charset.conf
+2017-02-07 21:55:41		Options saved to logger.conf
+2017-02-07 21:55:41		Options saved to exec.conf
+2017-02-07 21:55:41		Options saved to trigger.conf
+2017-02-07 21:55:41		Options saved to aspell.conf
+2017-02-07 21:55:41		Options saved to alias.conf
+2017-02-07 21:55:41		Options saved to xfer.conf
+2017-02-07 21:55:41		Options saved to irc.conf
+2017-02-07 21:55:41		Options saved to relay.conf
+2017-02-07 21:55:41		Options saved to script.conf
+2017-02-07 21:55:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:56:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:56:56	=!=	You can not write text in this buffer
+2017-02-07 21:57:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 21:57:23	=!=	irc: command "join" must be executed on connected irc server
+2017-02-07 21:59:14		irc: server twitch has been deleted
+2017-02-07 22:00:29		irc: server -auto added
+2017-02-07 22:00:40		irc: server -auto has been deleted
+2017-02-07 22:01:01		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:01:01		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:01:01		                copy|rename <server> <new_name>
+2017-02-07 22:01:01		                reorder <server> [<server>...]
+2017-02-07 22:01:01		                del|keep <server>
+2017-02-07 22:01:01		                deloutq|jump|raw
+2017-02-07 22:01:01		list, add or remove IRC servers
+2017-02-07 22:01:01		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:01:01		listfull: list servers with detailed info for each server
+2017-02-07 22:01:01		     add: add a new server
+2017-02-07 22:01:01		  server: server name, for internal and display use
+2017-02-07 22:01:01		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:01:01		    temp: add a temporary server (not saved)
+2017-02-07 22:01:01		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:01:01		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:01:01		    copy: duplicate a server
+2017-02-07 22:01:01		  rename: rename a server
+2017-02-07 22:01:01		 reorder: reorder list of servers
+2017-02-07 22:01:01		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:01:01		     del: delete a server
+2017-02-07 22:01:01		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:01:01		    jump: jump to server buffer
+2017-02-07 22:01:01		     raw: open buffer with raw IRC data
+2017-02-07 22:01:01		Examples:
+2017-02-07 22:01:01		  /server listfull
+2017-02-07 22:01:01		  /server add freenode chat.freenode.net
+2017-02-07 22:01:01		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:01:01		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:01:01		  /server copy freenode freenode-test
+2017-02-07 22:01:01		  /server rename freenode-test freenode2
+2017-02-07 22:01:01		  /server reorder freenode2 freenode
+2017-02-07 22:01:01		  /server del freenode
+2017-02-07 22:01:01		  /server deloutq
+2017-02-07 22:01:28		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:01:28		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:01:28		                copy|rename <server> <new_name>
+2017-02-07 22:01:28		                reorder <server> [<server>...]
+2017-02-07 22:01:28		                del|keep <server>
+2017-02-07 22:01:28		                deloutq|jump|raw
+2017-02-07 22:01:28		list, add or remove IRC servers
+2017-02-07 22:01:28		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:01:28		listfull: list servers with detailed info for each server
+2017-02-07 22:01:28		     add: add a new server
+2017-02-07 22:01:28		  server: server name, for internal and display use
+2017-02-07 22:01:28		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:01:28		    temp: add a temporary server (not saved)
+2017-02-07 22:01:28		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:01:28		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:01:28		    copy: duplicate a server
+2017-02-07 22:01:28		  rename: rename a server
+2017-02-07 22:01:28		 reorder: reorder list of servers
+2017-02-07 22:01:28		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:01:28		     del: delete a server
+2017-02-07 22:01:28		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:01:28		    jump: jump to server buffer
+2017-02-07 22:01:28		     raw: open buffer with raw IRC data
+2017-02-07 22:01:28		Examples:
+2017-02-07 22:01:28		  /server listfull
+2017-02-07 22:01:28		  /server add freenode chat.freenode.net
+2017-02-07 22:01:28		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:01:28		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:01:28		  /server copy freenode freenode-test
+2017-02-07 22:01:28		  /server rename freenode-test freenode2
+2017-02-07 22:01:28		  /server reorder freenode2 freenode
+2017-02-07 22:01:28		  /server del freenode
+2017-02-07 22:01:28		  /server deloutq
+2017-02-07 22:01:32		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:01:32		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:01:32		                copy|rename <server> <new_name>
+2017-02-07 22:01:32		                reorder <server> [<server>...]
+2017-02-07 22:01:32		                del|keep <server>
+2017-02-07 22:01:32		                deloutq|jump|raw
+2017-02-07 22:01:32		list, add or remove IRC servers
+2017-02-07 22:01:32		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:01:32		listfull: list servers with detailed info for each server
+2017-02-07 22:01:32		     add: add a new server
+2017-02-07 22:01:32		  server: server name, for internal and display use
+2017-02-07 22:01:32		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:01:32		    temp: add a temporary server (not saved)
+2017-02-07 22:01:32		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:01:32		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:01:32		    copy: duplicate a server
+2017-02-07 22:01:32		  rename: rename a server
+2017-02-07 22:01:32		 reorder: reorder list of servers
+2017-02-07 22:01:32		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:01:32		     del: delete a server
+2017-02-07 22:01:32		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:01:32		    jump: jump to server buffer
+2017-02-07 22:01:32		     raw: open buffer with raw IRC data
+2017-02-07 22:01:32		Examples:
+2017-02-07 22:01:32		  /server listfull
+2017-02-07 22:01:32		  /server add freenode chat.freenode.net
+2017-02-07 22:01:32		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:01:32		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:01:32		  /server copy freenode freenode-test
+2017-02-07 22:01:32		  /server rename freenode-test freenode2
+2017-02-07 22:01:32		  /server reorder freenode2 freenode
+2017-02-07 22:01:32		  /server del freenode
+2017-02-07 22:01:32		  /server deloutq
+2017-02-07 22:01:55		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:01:55		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:01:55		                copy|rename <server> <new_name>
+2017-02-07 22:01:55		                reorder <server> [<server>...]
+2017-02-07 22:01:55		                del|keep <server>
+2017-02-07 22:01:55		                deloutq|jump|raw
+2017-02-07 22:01:55		list, add or remove IRC servers
+2017-02-07 22:01:55		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:01:55		listfull: list servers with detailed info for each server
+2017-02-07 22:01:55		     add: add a new server
+2017-02-07 22:01:55		  server: server name, for internal and display use
+2017-02-07 22:01:55		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:01:55		    temp: add a temporary server (not saved)
+2017-02-07 22:01:55		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:01:55		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:01:55		    copy: duplicate a server
+2017-02-07 22:01:55		  rename: rename a server
+2017-02-07 22:01:55		 reorder: reorder list of servers
+2017-02-07 22:01:55		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:01:55		     del: delete a server
+2017-02-07 22:01:55		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:01:55		    jump: jump to server buffer
+2017-02-07 22:01:55		     raw: open buffer with raw IRC data
+2017-02-07 22:01:55		Examples:
+2017-02-07 22:01:55		  /server listfull
+2017-02-07 22:01:55		  /server add freenode chat.freenode.net
+2017-02-07 22:01:55		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:01:55		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:01:55		  /server copy freenode freenode-test
+2017-02-07 22:01:55		  /server rename freenode-test freenode2
+2017-02-07 22:01:55		  /server reorder freenode2 freenode
+2017-02-07 22:01:55		  /server del freenode
+2017-02-07 22:01:55		  /server deloutq
+2017-02-07 22:02:28		irc: server twitch added
+2017-02-07 22:02:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:03:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:03:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:03:51		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:03:51	=!=	You can not write text in this buffer
+2017-02-07 22:06:21		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:06:21	=!=	You can not write text in this buffer
+2017-02-07 22:06:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:06:31	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-02-07 22:06:36		[core]
+2017-02-07 22:06:36		  away     debug    key      proxy    set      window 
+2017-02-07 22:06:36		  bar      eval     layout   quit     unset  
+2017-02-07 22:06:36		  buffer   filter   mouse    reload   upgrade
+2017-02-07 22:06:36		  color    help     mute     repeat   uptime 
+2017-02-07 22:06:36		  command  history  plugin   save     version
+2017-02-07 22:06:36		  cursor   input    print    secure   wait   
+2017-02-07 22:06:36		[charset]
+2017-02-07 22:06:36		  charset
+2017-02-07 22:06:36		[relay]
+2017-02-07 22:06:36		  relay
+2017-02-07 22:06:36		[exec]
+2017-02-07 22:06:36		  exec
+2017-02-07 22:06:36		[irc]
+2017-02-07 22:06:36		  admin       halfop      motd        rehash      time      
+2017-02-07 22:06:36		  allchan     ignore      msg         remove      topic     
+2017-02-07 22:06:36		  allpv       info        names       restart     trace     
+2017-02-07 22:06:36		  allserv     invite      nick        sajoin      unban     
+2017-02-07 22:06:36		  ban         ison        notice      samode      unquiet   
+2017-02-07 22:06:36		  cap         join        notify      sanick      userhost  
+2017-02-07 22:06:36		  connect     kick        op          sapart      users     
+2017-02-07 22:06:36		  ctcp        kickban     oper        saquit      version   
+2017-02-07 22:06:36		  cycle       kill        part        server      voice     
+2017-02-07 22:06:36		  dcc         links       ping        service     wallchops 
+2017-02-07 22:06:36		  dehalfop    list        pong        servlist    wallops   
+2017-02-07 22:06:36		  deop        lusers      query       squery      who       
+2017-02-07 22:06:36		  devoice     map         quiet       squit       whois     
+2017-02-07 22:06:36		  die         me          quote       stats       whowas    
+2017-02-07 22:06:36		  disconnect  mode        reconnect   summon    
+2017-02-07 22:06:36		[fifo]
+2017-02-07 22:06:36		  fifo
+2017-02-07 22:06:36		[logger]
+2017-02-07 22:06:36		  logger
+2017-02-07 22:06:36		[python]
+2017-02-07 22:06:36		  python
+2017-02-07 22:06:36		[xfer]
+2017-02-07 22:06:36		  me  xfer
+2017-02-07 22:06:36		[tcl]
+2017-02-07 22:06:36		  tcl
+2017-02-07 22:06:36		[script]
+2017-02-07 22:06:36		  script
+2017-02-07 22:06:36		[guile]
+2017-02-07 22:06:36		  guile
+2017-02-07 22:06:36		[trigger]
+2017-02-07 22:06:36		  trigger
+2017-02-07 22:06:36		[perl]
+2017-02-07 22:06:36		  perl
+2017-02-07 22:06:36		[javascript]
+2017-02-07 22:06:36		  javascript
+2017-02-07 22:06:36		[alias]
+2017-02-07 22:06:36		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2017-02-07 22:06:36		  alias    C        J        MUB      T        WI     
+2017-02-07 22:06:36		  AME      CHAT     K        N        UB       WII    
+2017-02-07 22:06:36		  AMSG     CL       KB       Q        UMODE    WW     
+2017-02-07 22:06:36		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2017-02-07 22:06:36		  BEEP     EXIT     M        SAY      W      
+2017-02-07 22:06:36		[ruby]
+2017-02-07 22:06:36		  ruby
+2017-02-07 22:06:36		[lua]
+2017-02-07 22:06:36		  lua
+2017-02-07 22:06:36		[aspell]
+2017-02-07 22:06:36		  aspell
+2017-02-07 22:06:39		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:06:39		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:06:39		                copy|rename <server> <new_name>
+2017-02-07 22:06:39		                reorder <server> [<server>...]
+2017-02-07 22:06:39		                del|keep <server>
+2017-02-07 22:06:39		                deloutq|jump|raw
+2017-02-07 22:06:39		list, add or remove IRC servers
+2017-02-07 22:06:39		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:06:39		listfull: list servers with detailed info for each server
+2017-02-07 22:06:39		     add: add a new server
+2017-02-07 22:06:39		  server: server name, for internal and display use
+2017-02-07 22:06:39		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:06:39		    temp: add a temporary server (not saved)
+2017-02-07 22:06:39		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:06:39		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:06:39		    copy: duplicate a server
+2017-02-07 22:06:39		  rename: rename a server
+2017-02-07 22:06:39		 reorder: reorder list of servers
+2017-02-07 22:06:39		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:06:39		     del: delete a server
+2017-02-07 22:06:39		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:06:39		    jump: jump to server buffer
+2017-02-07 22:06:39		     raw: open buffer with raw IRC data
+2017-02-07 22:06:39		Examples:
+2017-02-07 22:06:39		  /server listfull
+2017-02-07 22:06:39		  /server add freenode chat.freenode.net
+2017-02-07 22:06:39		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:06:39		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:06:39		  /server copy freenode freenode-test
+2017-02-07 22:06:39		  /server rename freenode-test freenode2
+2017-02-07 22:06:39		  /server reorder freenode2 freenode
+2017-02-07 22:06:39		  /server del freenode
+2017-02-07 22:06:39		  /server deloutq
+2017-02-07 22:07:02		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:07:02	=!=	You can not write text in this buffer
+2017-02-07 22:07:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:07:15		[core]
+2017-02-07 22:07:15		  away   
+2017-02-07 22:07:15		  bar    
+2017-02-07 22:07:15		  buffer 
+2017-02-07 22:07:15		  color  
+2017-02-07 22:07:15		  command
+2017-02-07 22:07:15		  cursor 
+2017-02-07 22:07:15		  debug  
+2017-02-07 22:07:15		  eval   
+2017-02-07 22:07:15		  filter 
+2017-02-07 22:07:15		  help   
+2017-02-07 22:07:15		  history
+2017-02-07 22:07:15		  input  
+2017-02-07 22:07:15		  key    
+2017-02-07 22:07:15		  layout 
+2017-02-07 22:07:15		  mouse  
+2017-02-07 22:07:15		  mute   
+2017-02-07 22:07:15		  plugin 
+2017-02-07 22:07:15		  print  
+2017-02-07 22:07:15		  proxy  
+2017-02-07 22:07:15		  quit   
+2017-02-07 22:07:15		  reload 
+2017-02-07 22:07:15		  repeat 
+2017-02-07 22:07:15		  save   
+2017-02-07 22:07:15		  secure 
+2017-02-07 22:07:15		  set    
+2017-02-07 22:07:15		  unset  
+2017-02-07 22:07:15		  upgrade
+2017-02-07 22:07:15		  uptime 
+2017-02-07 22:07:15		  version
+2017-02-07 22:07:15		  wait   
+2017-02-07 22:07:15		  window 
+2017-02-07 22:07:15		[charset]
+2017-02-07 22:07:15		  charset
+2017-02-07 22:07:15		[relay]
+2017-02-07 22:07:15		  relay
+2017-02-07 22:07:15		[exec]
+2017-02-07 22:07:15		  exec
+2017-02-07 22:07:15		[irc]
+2017-02-07 22:07:15		  admin     
+2017-02-07 22:07:15		  allchan   
+2017-02-07 22:07:15		  allpv     
+2017-02-07 22:07:15		  allserv   
+2017-02-07 22:07:15		  ban       
+2017-02-07 22:07:15		  cap       
+2017-02-07 22:07:15		  connect   
+2017-02-07 22:07:15		  ctcp      
+2017-02-07 22:07:15		  cycle     
+2017-02-07 22:07:15		  dcc       
+2017-02-07 22:07:15		  dehalfop  
+2017-02-07 22:07:15		  deop      
+2017-02-07 22:07:15		  devoice   
+2017-02-07 22:07:15		  die       
+2017-02-07 22:07:15		  disconnect
+2017-02-07 22:07:15		  halfop    
+2017-02-07 22:07:15		  ignore    
+2017-02-07 22:07:15		  info      
+2017-02-07 22:07:15		  invite    
+2017-02-07 22:07:15		  ison      
+2017-02-07 22:07:15		  join      
+2017-02-07 22:07:15		  kick      
+2017-02-07 22:07:15		  kickban   
+2017-02-07 22:07:15		  kill      
+2017-02-07 22:07:15		  links     
+2017-02-07 22:07:15		  list      
+2017-02-07 22:07:15		  lusers    
+2017-02-07 22:07:15		  map       
+2017-02-07 22:07:15		  me        
+2017-02-07 22:07:15		  mode      
+2017-02-07 22:07:15		  motd      
+2017-02-07 22:07:15		  msg       
+2017-02-07 22:07:15		  names     
+2017-02-07 22:07:15		  nick      
+2017-02-07 22:07:15		  notice    
+2017-02-07 22:07:15		  notify    
+2017-02-07 22:07:15		  op        
+2017-02-07 22:07:15		  oper      
+2017-02-07 22:07:15		  part      
+2017-02-07 22:07:15		  ping      
+2017-02-07 22:07:15		  pong      
+2017-02-07 22:07:15		  query     
+2017-02-07 22:07:15		  quiet     
+2017-02-07 22:07:15		  quote     
+2017-02-07 22:07:15		  reconnect 
+2017-02-07 22:07:15		  rehash    
+2017-02-07 22:07:15		  remove    
+2017-02-07 22:07:15		  restart   
+2017-02-07 22:07:15		  sajoin    
+2017-02-07 22:07:15		  samode    
+2017-02-07 22:07:15		  sanick    
+2017-02-07 22:07:15		  sapart    
+2017-02-07 22:07:15		  saquit    
+2017-02-07 22:07:15		  server    
+2017-02-07 22:07:15		  service   
+2017-02-07 22:07:15		  servlist  
+2017-02-07 22:07:15		  squery    
+2017-02-07 22:07:15		  squit     
+2017-02-07 22:07:15		  stats     
+2017-02-07 22:07:15		  summon    
+2017-02-07 22:07:15		  time      
+2017-02-07 22:07:15		  topic     
+2017-02-07 22:07:15		  trace     
+2017-02-07 22:07:15		  unban     
+2017-02-07 22:07:15		  unquiet   
+2017-02-07 22:07:15		  userhost  
+2017-02-07 22:07:15		  users     
+2017-02-07 22:07:15		  version   
+2017-02-07 22:07:15		  voice     
+2017-02-07 22:07:15		  wallchops 
+2017-02-07 22:07:15		  wallops   
+2017-02-07 22:07:15		  who       
+2017-02-07 22:07:15		  whois     
+2017-02-07 22:07:15		  whowas    
+2017-02-07 22:07:15		[fifo]
+2017-02-07 22:07:15		  fifo
+2017-02-07 22:07:15		[logger]
+2017-02-07 22:07:15		  logger
+2017-02-07 22:07:15		[python]
+2017-02-07 22:07:15		  python
+2017-02-07 22:07:15		[xfer]
+2017-02-07 22:07:15		  me  
+2017-02-07 22:07:15		  xfer
+2017-02-07 22:07:15		[tcl]
+2017-02-07 22:07:15		  tcl
+2017-02-07 22:07:15		[script]
+2017-02-07 22:07:15		  script
+2017-02-07 22:07:15		[guile]
+2017-02-07 22:07:15		  guile
+2017-02-07 22:07:15		[trigger]
+2017-02-07 22:07:15		  trigger
+2017-02-07 22:07:15		[perl]
+2017-02-07 22:07:15		  perl
+2017-02-07 22:07:15		[javascript]
+2017-02-07 22:07:15		  javascript
+2017-02-07 22:07:15		[alias]
+2017-02-07 22:07:15		  AAWAY  
+2017-02-07 22:07:15		  alias  
+2017-02-07 22:07:15		  AME    
+2017-02-07 22:07:15		  AMSG   
+2017-02-07 22:07:15		  ANICK  
+2017-02-07 22:07:15		  BEEP   
+2017-02-07 22:07:15		  BYE    
+2017-02-07 22:07:15		  C      
+2017-02-07 22:07:15		  CHAT   
+2017-02-07 22:07:15		  CL     
+2017-02-07 22:07:15		  CLOSE  
+2017-02-07 22:07:15		  EXIT   
+2017-02-07 22:07:15		  IG     
+2017-02-07 22:07:15		  J      
+2017-02-07 22:07:15		  K      
+2017-02-07 22:07:15		  KB     
+2017-02-07 22:07:15		  LEAVE  
+2017-02-07 22:07:15		  M      
+2017-02-07 22:07:15		  MSGBUF 
+2017-02-07 22:07:15		  MUB    
+2017-02-07 22:07:15		  N      
+2017-02-07 22:07:15		  Q      
+2017-02-07 22:07:15		  REDRAW 
+2017-02-07 22:07:15		  SAY    
+2017-02-07 22:07:15		  SIGNOFF
+2017-02-07 22:07:15		  T      
+2017-02-07 22:07:15		  UB     
+2017-02-07 22:07:15		  UMODE  
+2017-02-07 22:07:15		  V      
+2017-02-07 22:07:15		  W      
+2017-02-07 22:07:15		  WC     
+2017-02-07 22:07:15		  WI     
+2017-02-07 22:07:15		  WII    
+2017-02-07 22:07:15		  WW     
+2017-02-07 22:07:15		[ruby]
+2017-02-07 22:07:15		  ruby
+2017-02-07 22:07:15		[lua]
+2017-02-07 22:07:15		  lua
+2017-02-07 22:07:15		[aspell]
+2017-02-07 22:07:15		  aspell
+2017-02-07 22:07:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:07:31		[core]
+2017-02-07 22:07:31		  away   
+2017-02-07 22:07:31		  bar    
+2017-02-07 22:07:31		  buffer 
+2017-02-07 22:07:31		  color  
+2017-02-07 22:07:31		  command
+2017-02-07 22:07:31		  cursor 
+2017-02-07 22:07:31		  debug  
+2017-02-07 22:07:31		  eval   
+2017-02-07 22:07:31		  filter 
+2017-02-07 22:07:31		  help   
+2017-02-07 22:07:31		  history
+2017-02-07 22:07:31		  input  
+2017-02-07 22:07:31		  key    
+2017-02-07 22:07:31		  layout 
+2017-02-07 22:07:31		  mouse  
+2017-02-07 22:07:31		  mute   
+2017-02-07 22:07:31		  plugin 
+2017-02-07 22:07:31		  print  
+2017-02-07 22:07:31		  proxy  
+2017-02-07 22:07:31		  quit   
+2017-02-07 22:07:31		  reload 
+2017-02-07 22:07:31		  repeat 
+2017-02-07 22:07:31		  save   
+2017-02-07 22:07:31		  secure 
+2017-02-07 22:07:31		  set    
+2017-02-07 22:07:31		  unset  
+2017-02-07 22:07:31		  upgrade
+2017-02-07 22:07:31		  uptime 
+2017-02-07 22:07:31		  version
+2017-02-07 22:07:31		  wait   
+2017-02-07 22:07:31		  window 
+2017-02-07 22:07:31		[charset]
+2017-02-07 22:07:31		  charset
+2017-02-07 22:07:31		[relay]
+2017-02-07 22:07:31		  relay
+2017-02-07 22:07:31		[exec]
+2017-02-07 22:07:31		  exec
+2017-02-07 22:07:31		[irc]
+2017-02-07 22:07:31		  admin     
+2017-02-07 22:07:31		  allchan   
+2017-02-07 22:07:31		  allpv     
+2017-02-07 22:07:31		  allserv   
+2017-02-07 22:07:31		  ban       
+2017-02-07 22:07:31		  cap       
+2017-02-07 22:07:31		  connect   
+2017-02-07 22:07:31		  ctcp      
+2017-02-07 22:07:31		  cycle     
+2017-02-07 22:07:31		  dcc       
+2017-02-07 22:07:31		  dehalfop  
+2017-02-07 22:07:31		  deop      
+2017-02-07 22:07:31		  devoice   
+2017-02-07 22:07:31		  die       
+2017-02-07 22:07:31		  disconnect
+2017-02-07 22:07:31		  halfop    
+2017-02-07 22:07:31		  ignore    
+2017-02-07 22:07:31		  info      
+2017-02-07 22:07:31		  invite    
+2017-02-07 22:07:31		  ison      
+2017-02-07 22:07:31		  join      
+2017-02-07 22:07:31		  kick      
+2017-02-07 22:07:31		  kickban   
+2017-02-07 22:07:31		  kill      
+2017-02-07 22:07:31		  links     
+2017-02-07 22:07:31		  list      
+2017-02-07 22:07:31		  lusers    
+2017-02-07 22:07:31		  map       
+2017-02-07 22:07:31		  me        
+2017-02-07 22:07:31		  mode      
+2017-02-07 22:07:31		  motd      
+2017-02-07 22:07:31		  msg       
+2017-02-07 22:07:31		  names     
+2017-02-07 22:07:31		  nick      
+2017-02-07 22:07:31		  notice    
+2017-02-07 22:07:31		  notify    
+2017-02-07 22:07:31		  op        
+2017-02-07 22:07:31		  oper      
+2017-02-07 22:07:31		  part      
+2017-02-07 22:07:31		  ping      
+2017-02-07 22:07:31		  pong      
+2017-02-07 22:07:31		  query     
+2017-02-07 22:07:31		  quiet     
+2017-02-07 22:07:31		  quote     
+2017-02-07 22:07:31		  reconnect 
+2017-02-07 22:07:31		  rehash    
+2017-02-07 22:07:31		  remove    
+2017-02-07 22:07:31		  restart   
+2017-02-07 22:07:31		  sajoin    
+2017-02-07 22:07:31		  samode    
+2017-02-07 22:07:31		  sanick    
+2017-02-07 22:07:31		  sapart    
+2017-02-07 22:07:31		  saquit    
+2017-02-07 22:07:31		  server    
+2017-02-07 22:07:31		  service   
+2017-02-07 22:07:31		  servlist  
+2017-02-07 22:07:31		  squery    
+2017-02-07 22:07:31		  squit     
+2017-02-07 22:07:31		  stats     
+2017-02-07 22:07:31		  summon    
+2017-02-07 22:07:31		  time      
+2017-02-07 22:07:31		  topic     
+2017-02-07 22:07:31		  trace     
+2017-02-07 22:07:31		  unban     
+2017-02-07 22:07:31		  unquiet   
+2017-02-07 22:07:31		  userhost  
+2017-02-07 22:07:31		  users     
+2017-02-07 22:07:31		  version   
+2017-02-07 22:07:31		  voice     
+2017-02-07 22:07:31		  wallchops 
+2017-02-07 22:07:31		  wallops   
+2017-02-07 22:07:31		  who       
+2017-02-07 22:07:31		  whois     
+2017-02-07 22:07:31		  whowas    
+2017-02-07 22:07:31		[fifo]
+2017-02-07 22:07:31		  fifo
+2017-02-07 22:07:31		[logger]
+2017-02-07 22:07:31		  logger
+2017-02-07 22:07:31		[python]
+2017-02-07 22:07:31		  python
+2017-02-07 22:07:31		[xfer]
+2017-02-07 22:07:31		  me  
+2017-02-07 22:07:31		  xfer
+2017-02-07 22:07:31		[tcl]
+2017-02-07 22:07:31		  tcl
+2017-02-07 22:07:31		[script]
+2017-02-07 22:07:31		  script
+2017-02-07 22:07:31		[guile]
+2017-02-07 22:07:31		  guile
+2017-02-07 22:07:31		[trigger]
+2017-02-07 22:07:31		  trigger
+2017-02-07 22:07:31		[perl]
+2017-02-07 22:07:31		  perl
+2017-02-07 22:07:31		[javascript]
+2017-02-07 22:07:31		  javascript
+2017-02-07 22:07:31		[alias]
+2017-02-07 22:07:31		  AAWAY  
+2017-02-07 22:07:31		  alias  
+2017-02-07 22:07:31		  AME    
+2017-02-07 22:07:31		  AMSG   
+2017-02-07 22:07:31		  ANICK  
+2017-02-07 22:07:31		  BEEP   
+2017-02-07 22:07:31		  BYE    
+2017-02-07 22:07:31		  C      
+2017-02-07 22:07:31		  CHAT   
+2017-02-07 22:07:31		  CL     
+2017-02-07 22:07:31		  CLOSE  
+2017-02-07 22:07:31		  EXIT   
+2017-02-07 22:07:31		  IG     
+2017-02-07 22:07:31		  J      
+2017-02-07 22:07:31		  K      
+2017-02-07 22:07:31		  KB     
+2017-02-07 22:07:31		  LEAVE  
+2017-02-07 22:07:31		  M      
+2017-02-07 22:07:31		  MSGBUF 
+2017-02-07 22:07:31		  MUB    
+2017-02-07 22:07:31		  N      
+2017-02-07 22:07:31		  Q      
+2017-02-07 22:07:31		  REDRAW 
+2017-02-07 22:07:31		  SAY    
+2017-02-07 22:07:31		  SIGNOFF
+2017-02-07 22:07:31		  T      
+2017-02-07 22:07:31		  UB     
+2017-02-07 22:07:31		  UMODE  
+2017-02-07 22:07:31		  V      
+2017-02-07 22:07:31		  W      
+2017-02-07 22:07:31		  WC     
+2017-02-07 22:07:31		  WI     
+2017-02-07 22:07:31		  WII    
+2017-02-07 22:07:31		  WW     
+2017-02-07 22:07:31		[ruby]
+2017-02-07 22:07:31		  ruby
+2017-02-07 22:07:31		[lua]
+2017-02-07 22:07:31		  lua
+2017-02-07 22:07:31		[aspell]
+2017-02-07 22:07:31		  aspell
+2017-02-07 22:07:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:07:41	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-02-07 22:07:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:07:59		[irc]  /server  list|listfull [<server>]
+2017-02-07 22:07:59		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-02-07 22:07:59		                copy|rename <server> <new_name>
+2017-02-07 22:07:59		                reorder <server> [<server>...]
+2017-02-07 22:07:59		                del|keep <server>
+2017-02-07 22:07:59		                deloutq|jump|raw
+2017-02-07 22:07:59		list, add or remove IRC servers
+2017-02-07 22:07:59		    list: list servers (without argument, this list is displayed)
+2017-02-07 22:07:59		listfull: list servers with detailed info for each server
+2017-02-07 22:07:59		     add: add a new server
+2017-02-07 22:07:59		  server: server name, for internal and display use
+2017-02-07 22:07:59		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-02-07 22:07:59		    temp: add a temporary server (not saved)
+2017-02-07 22:07:59		  option: set option for server (for boolean option, value can be omitted)
+2017-02-07 22:07:59		nooption: set boolean option to 'off' (for example: -nossl)
+2017-02-07 22:07:59		    copy: duplicate a server
+2017-02-07 22:07:59		  rename: rename a server
+2017-02-07 22:07:59		 reorder: reorder list of servers
+2017-02-07 22:07:59		    keep: keep server in config file (for temporary servers only)
+2017-02-07 22:07:59		     del: delete a server
+2017-02-07 22:07:59		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-02-07 22:07:59		    jump: jump to server buffer
+2017-02-07 22:07:59		     raw: open buffer with raw IRC data
+2017-02-07 22:07:59		Examples:
+2017-02-07 22:07:59		  /server listfull
+2017-02-07 22:07:59		  /server add freenode chat.freenode.net
+2017-02-07 22:07:59		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-02-07 22:07:59		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-02-07 22:07:59		  /server copy freenode freenode-test
+2017-02-07 22:07:59		  /server rename freenode-test freenode2
+2017-02-07 22:07:59		  /server reorder freenode2 freenode
+2017-02-07 22:07:59		  /server del freenode
+2017-02-07 22:07:59		  /server deloutq
+2017-02-07 22:08:16		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:17:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:19:29		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:20:55		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 22:20:55	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-02-07 22:23:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 23:40:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 23:41:19		Option changed: irc.server.twitch.command = "/quote CAP REQ :twitch.tv/membership"  (default if null: "")
+2017-02-07 23:41:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-07 23:46:00	=!=	Error: it is not safe to bind key "(press" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2017-02-07 23:47:05	=!=	Error: it is not safe to bind key "(meta2-18~" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2017-02-07 23:49:07	=!=	Error: it is not safe to bind key "(meta2-,)" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2017-02-07 23:49:16		New key binding (context "default"): meta2-, => /bar scroll nicklist * +100%
+2017-02-07 23:49:32		Key "meta2-," unbound (context: "default")
+2017-02-07 23:49:32		New key binding (context "default"): meta2-, => /bar scroll nicklist * -100%
+2017-02-07 23:49:36		New key binding (context "default"): meta2-. => /bar scroll nicklist * -100%
+2017-02-07 23:50:41		New key binding (context "default"): meta-. => /bar scroll nicklist * -100%
+2017-02-07 23:50:52		New key binding (context "default"): meta-, => /bar scroll nicklist * -100%
+2017-02-07 23:50:56		Key "meta-." unbound (context: "default")
+2017-02-07 23:50:56		New key binding (context "default"): meta-. => /bar scroll nicklist * +100%
+2017-02-07 23:52:00		Option changed: irc.look.smart_filter = on
+2017-02-07 23:52:59		[core]  /filter  list
+2017-02-07 23:52:59		                 enable|disable|toggle [<name>|@]
+2017-02-07 23:52:59		                 add <name> <buffer>[,<buffer>...] <tags> <regex>
+2017-02-07 23:52:59		                 rename <name> <new_name>
+2017-02-07 23:52:59		                 del <name>|-all
+2017-02-07 23:52:59		filter messages in buffers, to hide/show them according to tags or regex
+2017-02-07 23:52:59		   list: list all filters
+2017-02-07 23:52:59		 enable: enable filters (filters are enabled by default)
+2017-02-07 23:52:59		disable: disable filters
+2017-02-07 23:52:59		 toggle: toggle filters
+2017-02-07 23:52:59		   name: filter name ("@" = enable/disable all filters in current buffer)
+2017-02-07 23:52:59		    add: add a filter
+2017-02-07 23:52:59		 rename: rename a filter
+2017-02-07 23:52:59		    del: delete a filter
+2017-02-07 23:52:59		   -all: delete all filters
+2017-02-07 23:52:59		 buffer: comma separated list of buffers where filter is active:
+2017-02-07 23:52:59		         - this is full name including plugin (example: "irc.freenode.#weechat" or "irc.server.freenode")
+2017-02-07 23:52:59		         - "*" means all buffers
+2017-02-07 23:52:59		         - a name starting with '!' is excluded
+2017-02-07 23:52:59		         - wildcard "*" is allowed
+2017-02-07 23:52:59		   tags: comma separated list of tags, for example "irc_join,irc_part,irc_quit"
+2017-02-07 23:52:59		         - logical "and": use "+" between tags (for example: "nick_toto+irc_action")
+2017-02-07 23:52:59		         - wildcard "*" is allowed
+2017-02-07 23:52:59		         - if tag starts with '!', then it is excluded and must NOT be in message
+2017-02-07 23:52:59		  regex: POSIX extended regular expression to search in line
+2017-02-07 23:52:59		         - use '\t' to separate prefix from message, special chars like '|' must be escaped: '\|'
+2017-02-07 23:52:59		         - if regex starts with '!', then matching result is reversed (use '\!' to start with '!')
+2017-02-07 23:52:59		         - two regular expressions are created: one for prefix and one for message
+2017-02-07 23:52:59		         - regex are case insensitive, they can start by "(?-i)" to become case sensitive
+2017-02-07 23:52:59		The default key alt+'=' toggles filtering on/off.
+2017-02-07 23:52:59		Tags most commonly used:
+2017-02-07 23:52:59		  no_filter, no_highlight, no_log, log0..log9 (log level),
+2017-02-07 23:52:59		  notify_none, notify_message, notify_private, notify_highlight,
+2017-02-07 23:52:59		  nick_xxx (xxx is nick in message), prefix_nick_ccc (ccc is color of nick),
+2017-02-07 23:52:59		  host_xxx (xxx is username + host in message),
+2017-02-07 23:52:59		  irc_xxx (xxx is command name or number, see /server raw or /debug tags),
+2017-02-07 23:52:59		  irc_numeric, irc_error, irc_action, irc_ctcp, irc_ctcp_reply, irc_smart_filter, away_info.
+2017-02-07 23:52:59		To see tags for lines in buffers: /debug tags
+2017-02-07 23:52:59		Examples:
+2017-02-07 23:52:59		  use IRC smart filter on all buffers:
+2017-02-07 23:52:59		    /filter add irc_smart * irc_smart_filter *
+2017-02-07 23:52:59		  use IRC smart filter on all buffers except those with "#weechat" in name:
+2017-02-07 23:52:59		    /filter add irc_smart *,!*#weechat* irc_smart_filter *
+2017-02-07 23:52:59		  filter all IRC join/part/quit messages:
+2017-02-07 23:52:59		    /filter add joinquit * irc_join,irc_part,irc_quit *
+2017-02-07 23:52:59		  filter nicks displayed when joining channels or with /names:
+2017-02-07 23:52:59		    /filter add nicks * irc_366 *
+2017-02-07 23:52:59		  filter nick "toto" on IRC channel #weechat:
+2017-02-07 23:52:59		    /filter add toto irc.freenode.#weechat nick_toto *
+2017-02-07 23:52:59		  filter IRC join/action messages from nick "toto":
+2017-02-07 23:52:59		    /filter add toto * nick_toto+irc_join,nick_toto+irc_action *
+2017-02-07 23:52:59		  filter lines containing "weechat sucks" on IRC channel #weechat:
+2017-02-07 23:52:59		    /filter add sucks irc.freenode.#weechat * weechat sucks
+2017-02-07 23:52:59		  filter lines that are strictly equal to "WeeChat sucks" on all buffers:
+2017-02-07 23:52:59		    /filter add sucks2 * * (?-i)^WeeChat sucks$
+2017-02-07 23:53:22		Option changed: irc.look.smart_filter = off  (default: on)
+2017-02-07 23:53:27		Option changed: irc.look.smart_filter = on
+2017-02-07 23:53:33		Filter "joinquit" added:
+2017-02-07 23:53:33		  [joinquit] buffer: * / tags: irc_join,irc_part,irc_quit / regex: * 
+2017-02-07 23:55:47		Option changed: irc.look.smart_filter = off  (default: on)
+2017-02-08 00:06:54		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 00:07:18	=!=	Error with command "/ignore jtv" (help on command: /help ignore)
+2017-02-08 00:07:29		[irc]  /ignore  list
+2017-02-08 00:07:29		                add [re:]<nick> [<server> [<channel>]]
+2017-02-08 00:07:29		                del <number>|-all
+2017-02-08 00:07:29		ignore nicks/hosts from servers or channels
+2017-02-08 00:07:29		     list: list all ignores
+2017-02-08 00:07:29		      add: add an ignore
+2017-02-08 00:07:29		     nick: nick or hostname (can be a POSIX extended regular expression if "re:" is given or a mask using "*" to replace one or more chars)
+2017-02-08 00:07:29		      del: delete an ignore
+2017-02-08 00:07:29		   number: number of ignore to delete (look at list to find it)
+2017-02-08 00:07:29		     -all: delete all ignores
+2017-02-08 00:07:29		   server: internal server name where ignore is working
+2017-02-08 00:07:29		  channel: channel name where ignore is working
+2017-02-08 00:07:29		Note: the regular expression can start with "(?-i)" to become case sensitive.
+2017-02-08 00:07:29		Examples:
+2017-02-08 00:07:29		  ignore nick "toto" everywhere:
+2017-02-08 00:07:29		    /ignore add toto
+2017-02-08 00:07:29		  ignore host "toto@domain.com" on freenode server:
+2017-02-08 00:07:29		    /ignore add toto@domain.com freenode
+2017-02-08 00:07:29		  ignore host "toto*@*.domain.com" on freenode/#weechat:
+2017-02-08 00:07:29		    /ignore add toto*@*.domain.com freenode #weechat
+2017-02-08 00:07:47		irc: ignore added:
+2017-02-08 00:07:47		  [1] mask: jtv / server: * / channel: *
+2017-02-08 00:09:49		Key "meta2-5;3~" unbound (context: "default")
+2017-02-08 00:09:49		New key binding (context "default"): meta2-5;3~ => /bar scroll nicklist * +100%
+2017-02-08 00:10:14		Key "meta2-6;3~" unbound (context: "default")
+2017-02-08 00:10:14		New key binding (context "default"): meta2-6;3~ => /bar scroll nicklist * -100%
+2017-02-08 00:10:33		Key "meta2-6;3~" unbound (context: "default")
+2017-02-08 00:10:33		New key binding (context "default"): meta2-6;3~ => /bar scroll nicklist * +100%
+2017-02-08 00:10:39		Key "meta2-5;3~" unbound (context: "default")
+2017-02-08 00:10:39		New key binding (context "default"): meta2-5;3~ => /bar scroll nicklist * -100%
+2017-02-08 00:11:13		[irc]  /ignore  list
+2017-02-08 00:11:13		                add [re:]<nick> [<server> [<channel>]]
+2017-02-08 00:11:13		                del <number>|-all
+2017-02-08 00:11:13		ignore nicks/hosts from servers or channels
+2017-02-08 00:11:13		     list: list all ignores
+2017-02-08 00:11:13		      add: add an ignore
+2017-02-08 00:11:13		     nick: nick or hostname (can be a POSIX extended regular expression if "re:" is given or a mask using "*" to replace one or more chars)
+2017-02-08 00:11:13		      del: delete an ignore
+2017-02-08 00:11:13		   number: number of ignore to delete (look at list to find it)
+2017-02-08 00:11:13		     -all: delete all ignores
+2017-02-08 00:11:13		   server: internal server name where ignore is working
+2017-02-08 00:11:13		  channel: channel name where ignore is working
+2017-02-08 00:11:13		Note: the regular expression can start with "(?-i)" to become case sensitive.
+2017-02-08 00:11:13		Examples:
+2017-02-08 00:11:13		  ignore nick "toto" everywhere:
+2017-02-08 00:11:13		    /ignore add toto
+2017-02-08 00:11:13		  ignore host "toto@domain.com" on freenode server:
+2017-02-08 00:11:13		    /ignore add toto@domain.com freenode
+2017-02-08 00:11:13		  ignore host "toto*@*.domain.com" on freenode/#weechat:
+2017-02-08 00:11:13		    /ignore add toto*@*.domain.com freenode #weechat
+2017-02-08 00:36:12		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 01:04:04		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 01:12:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 01:42:30		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 13:06:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 18:07:53	=!=	Error: unknown command "/slowmode" (type /help for help)
+2017-02-08 18:08:14	=!=	Error: unknown command "/r9k" (type /help for help)
+2017-02-08 18:08:20	=!=	Error: unknown command "/timeout" (type /help for help)
+2017-02-08 18:09:25		Mouse enabled
+2017-02-08 18:13:00	=!=	irc: wrong ignore number
+2017-02-08 18:13:09		irc: ignore list:
+2017-02-08 18:13:09		  [1] mask: jtv / server: * / channel: *
+2017-02-08 18:13:18		irc: ignore "jtv" deleted
+2017-02-08 22:43:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 22:50:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 22:52:58		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 23:07:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-08 23:17:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 11:01:20		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 13:12:20		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:15:57		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:28:39	=!=	fifo: invalid text received in pipe
+2017-02-09 14:28:56	=!=	fifo: invalid text received in pipe
+2017-02-09 14:31:04	=!=	fifo: invalid text received in pipe
+2017-02-09 14:31:11	=!=	fifo: invalid text received in pipe
+2017-02-09 14:31:13	=!=	fifo: invalid text received in pipe
+2017-02-09 14:32:00	=!=	fifo: invalid text received in pipe
+2017-02-09 14:32:58		[core]
+2017-02-09 14:32:58		  away     debug    key      proxy    set      window 
+2017-02-09 14:32:58		  bar      eval     layout   quit     unset  
+2017-02-09 14:32:58		  buffer   filter   mouse    reload   upgrade
+2017-02-09 14:32:58		  color    help     mute     repeat   uptime 
+2017-02-09 14:32:58		  command  history  plugin   save     version
+2017-02-09 14:32:58		  cursor   input    print    secure   wait   
+2017-02-09 14:32:58		[charset]
+2017-02-09 14:32:58		  charset
+2017-02-09 14:32:58		[relay]
+2017-02-09 14:32:58		  relay
+2017-02-09 14:32:58		[exec]
+2017-02-09 14:32:58		  exec
+2017-02-09 14:32:58		[irc]
+2017-02-09 14:32:58		  admin       ison        part        squit     
+2017-02-09 14:32:58		  allchan     join        ping        stats     
+2017-02-09 14:32:58		  allpv       kick        pong        summon    
+2017-02-09 14:32:58		  allserv     kickban     query       time      
+2017-02-09 14:32:58		  ban         kill        quiet       topic     
+2017-02-09 14:32:58		  cap         links       quote       trace     
+2017-02-09 14:32:58		  connect     list        reconnect   unban     
+2017-02-09 14:32:58		  ctcp        lusers      rehash      unquiet   
+2017-02-09 14:32:58		  cycle       map         remove      userhost  
+2017-02-09 14:32:58		  dcc         me          restart     users     
+2017-02-09 14:32:58		  dehalfop    mode        sajoin      version   
+2017-02-09 14:32:58		  deop        motd        samode      voice     
+2017-02-09 14:32:58		  devoice     msg         sanick      wallchops 
+2017-02-09 14:32:58		  die         names       sapart      wallops   
+2017-02-09 14:32:58		  disconnect  nick        saquit      who       
+2017-02-09 14:32:58		  halfop      notice      server      whois     
+2017-02-09 14:32:58		  ignore      notify      service     whowas    
+2017-02-09 14:32:58		  info        op          servlist  
+2017-02-09 14:32:58		  invite      oper        squery    
+2017-02-09 14:32:58		[fifo]
+2017-02-09 14:32:58		  fifo
+2017-02-09 14:32:58		[logger]
+2017-02-09 14:32:58		  logger
+2017-02-09 14:32:58		[python]
+2017-02-09 14:32:58		  python
+2017-02-09 14:32:58		[xfer]
+2017-02-09 14:32:58		  me  xfer
+2017-02-09 14:32:58		[tcl]
+2017-02-09 14:32:58		  tcl
+2017-02-09 14:32:58		[script]
+2017-02-09 14:32:58		  script
+2017-02-09 14:32:58		[guile]
+2017-02-09 14:32:58		  guile
+2017-02-09 14:32:58		[trigger]
+2017-02-09 14:32:58		  trigger
+2017-02-09 14:32:58		[perl]
+2017-02-09 14:32:58		  perl
+2017-02-09 14:32:58		[javascript]
+2017-02-09 14:32:58		  javascript
+2017-02-09 14:32:58		[alias]
+2017-02-09 14:32:58		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2017-02-09 14:32:58		  alias    C        J        MUB      T        WI     
+2017-02-09 14:32:58		  AME      CHAT     K        N        UB       WII    
+2017-02-09 14:32:58		  AMSG     CL       KB       Q        UMODE    WW     
+2017-02-09 14:32:58		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2017-02-09 14:32:58		  BEEP     EXIT     M        SAY      W      
+2017-02-09 14:32:58		[ruby]
+2017-02-09 14:32:58		  ruby
+2017-02-09 14:32:58		[lua]
+2017-02-09 14:32:58		  lua
+2017-02-09 14:32:58		[aspell]
+2017-02-09 14:32:58		  aspell
+2017-02-09 14:33:22	=!=	fifo: invalid text received in pipe
+2017-02-09 14:33:36	=!=	fifo: invalid text received in pipe
+2017-02-09 14:33:45	=!=	fifo: invalid text received in pipe
+2017-02-09 14:34:08		[core]
+2017-02-09 14:34:08		  away     debug    key      proxy    set      window 
+2017-02-09 14:34:08		  bar      eval     layout   quit     unset  
+2017-02-09 14:34:08		  buffer   filter   mouse    reload   upgrade
+2017-02-09 14:34:08		  color    help     mute     repeat   uptime 
+2017-02-09 14:34:08		  command  history  plugin   save     version
+2017-02-09 14:34:08		  cursor   input    print    secure   wait   
+2017-02-09 14:34:08		[charset]
+2017-02-09 14:34:08		  charset
+2017-02-09 14:34:08		[relay]
+2017-02-09 14:34:08		  relay
+2017-02-09 14:34:08		[exec]
+2017-02-09 14:34:08		  exec
+2017-02-09 14:34:08		[irc]
+2017-02-09 14:34:08		  admin       ison        part        squit     
+2017-02-09 14:34:08		  allchan     join        ping        stats     
+2017-02-09 14:34:08		  allpv       kick        pong        summon    
+2017-02-09 14:34:08		  allserv     kickban     query       time      
+2017-02-09 14:34:08		  ban         kill        quiet       topic     
+2017-02-09 14:34:08		  cap         links       quote       trace     
+2017-02-09 14:34:08		  connect     list        reconnect   unban     
+2017-02-09 14:34:08		  ctcp        lusers      rehash      unquiet   
+2017-02-09 14:34:08		  cycle       map         remove      userhost  
+2017-02-09 14:34:08		  dcc         me          restart     users     
+2017-02-09 14:34:08		  dehalfop    mode        sajoin      version   
+2017-02-09 14:34:08		  deop        motd        samode      voice     
+2017-02-09 14:34:08		  devoice     msg         sanick      wallchops 
+2017-02-09 14:34:08		  die         names       sapart      wallops   
+2017-02-09 14:34:08		  disconnect  nick        saquit      who       
+2017-02-09 14:34:08		  halfop      notice      server      whois     
+2017-02-09 14:34:08		  ignore      notify      service     whowas    
+2017-02-09 14:34:08		  info        op          servlist  
+2017-02-09 14:34:08		  invite      oper        squery    
+2017-02-09 14:34:08		[fifo]
+2017-02-09 14:34:08		  fifo
+2017-02-09 14:34:08		[logger]
+2017-02-09 14:34:08		  logger
+2017-02-09 14:34:08		[python]
+2017-02-09 14:34:08		  python
+2017-02-09 14:34:08		[xfer]
+2017-02-09 14:34:08		  me  xfer
+2017-02-09 14:34:08		[tcl]
+2017-02-09 14:34:08		  tcl
+2017-02-09 14:34:08		[script]
+2017-02-09 14:34:08		  script
+2017-02-09 14:34:08		[guile]
+2017-02-09 14:34:08		  guile
+2017-02-09 14:34:08		[trigger]
+2017-02-09 14:34:08		  trigger
+2017-02-09 14:34:08		[perl]
+2017-02-09 14:34:08		  perl
+2017-02-09 14:34:08		[javascript]
+2017-02-09 14:34:08		  javascript
+2017-02-09 14:34:08		[alias]
+2017-02-09 14:34:08		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2017-02-09 14:34:08		  alias    C        J        MUB      T        WI     
+2017-02-09 14:34:08		  AME      CHAT     K        N        UB       WII    
+2017-02-09 14:34:08		  AMSG     CL       KB       Q        UMODE    WW     
+2017-02-09 14:34:08		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2017-02-09 14:34:08		  BEEP     EXIT     M        SAY      W      
+2017-02-09 14:34:08		[ruby]
+2017-02-09 14:34:08		  ruby
+2017-02-09 14:34:08		[lua]
+2017-02-09 14:34:08		  lua
+2017-02-09 14:34:08		[aspell]
+2017-02-09 14:34:08		  aspell
+2017-02-09 14:43:54		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 14:43:54		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:49:55		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:50:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:53:08		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 14:53:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:53:28		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 14:53:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:54:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:54:44	=!=	irc: command "join" must be executed on connected irc server
+2017-02-09 14:55:12		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 14:55:12		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:56:01		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 14:56:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:58:21		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:58:34		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:58:38		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 14:59:42		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 15:01:36		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 15:01:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 15:02:17		fifo: removing old fifo pipe "/home/dt/.weechat/weechat_fifo_*"
+2017-02-09 15:02:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 15:02:30		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-09 15:11:14	=!=	Error: unknown command "/autosetbuffer" (type /help for help)
+2017-02-10 18:03:12		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-11 00:22:51	=!=	Error: unknown command "/slow" (type /help for help)
+2017-02-11 02:38:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-11 02:38:26	=!=	irc: command "join" must be executed on connected irc server
+2017-02-11 04:21:28		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-11 04:21:28	=!=	irc: command "join" must be executed on connected irc server
+2017-02-11 10:49:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-11 12:11:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-12 11:32:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-12 11:32:41	=!=	irc: command "join" must be executed on connected irc server
+2017-02-12 16:19:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-13 10:42:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-13 21:33:04	=!=	Error: unknown command "/clsoe" (type /help for help)
+2017-02-13 22:26:17	=!=	No help available, "commands" is not a command or an option
+2017-02-13 22:26:20	=!=	Error: unknown command "/held" (type /help for help)
+2017-02-13 22:26:21		[core]
+2017-02-13 22:26:21		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2017-02-13 22:26:21		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2017-02-13 22:26:21		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2017-02-13 22:26:21		[charset]
+2017-02-13 22:26:21		  charset
+2017-02-13 22:26:21		[relay]
+2017-02-13 22:26:21		  relay
+2017-02-13 22:26:21		[exec]
+2017-02-13 22:26:21		  exec
+2017-02-13 22:26:21		[irc]
+2017-02-13 22:26:21		  admin       dehalfop    join        motd        pong        sanick      time        wallops   
+2017-02-13 22:26:21		  allchan     deop        kick        msg         query       sapart      topic       who       
+2017-02-13 22:26:21		  allpv       devoice     kickban     names       quiet       saquit      trace       whois     
+2017-02-13 22:26:21		  allserv     die         kill        nick        quote       server      unban       whowas    
+2017-02-13 22:26:21		  ban         disconnect  links       notice      reconnect   service     unquiet   
+2017-02-13 22:26:21		  cap         halfop      list        notify      rehash      servlist    userhost  
+2017-02-13 22:26:21		  connect     ignore      lusers      op          remove      squery      users     
+2017-02-13 22:26:21		  ctcp        info        map         oper        restart     squit       version   
+2017-02-13 22:26:21		  cycle       invite      me          part        sajoin      stats       voice     
+2017-02-13 22:26:21		  dcc         ison        mode        ping        samode      summon      wallchops 
+2017-02-13 22:26:21		[fifo]
+2017-02-13 22:26:21		  fifo
+2017-02-13 22:26:21		[logger]
+2017-02-13 22:26:21		  logger
+2017-02-13 22:26:21		[python]
+2017-02-13 22:26:21		  python
+2017-02-13 22:26:21		[xfer]
+2017-02-13 22:26:21		  me  xfer
+2017-02-13 22:26:21		[tcl]
+2017-02-13 22:26:21		  tcl
+2017-02-13 22:26:21		[script]
+2017-02-13 22:26:21		  script
+2017-02-13 22:26:21		[guile]
+2017-02-13 22:26:21		  guile
+2017-02-13 22:26:21		[trigger]
+2017-02-13 22:26:21		  trigger
+2017-02-13 22:26:21		[perl]
+2017-02-13 22:26:21		  perl
+2017-02-13 22:26:21		[javascript]
+2017-02-13 22:26:21		  javascript
+2017-02-13 22:26:21		[alias]
+2017-02-13 22:26:21		  AAWAY    ANICK    CHAT     IG       LEAVE    N        SIGNOFF  V        WII    
+2017-02-13 22:26:21		  alias    BEEP     CL       J        M        Q        T        W        WW     
+2017-02-13 22:26:21		  AME      BYE      CLOSE    K        MSGBUF   REDRAW   UB       WC     
+2017-02-13 22:26:21		  AMSG     C        EXIT     KB       MUB      SAY      UMODE    WI     
+2017-02-13 22:26:21		[ruby]
+2017-02-13 22:26:21		  ruby
+2017-02-13 22:26:21		[lua]
+2017-02-13 22:26:21		  lua
+2017-02-13 22:26:21		[aspell]
+2017-02-13 22:26:21		  aspell
+2017-02-13 22:27:32		New key binding (context "default"): meta-q => "/close"
+2017-02-13 22:35:08		Key "meta-q" unbound (context: "default")
+2017-02-13 22:35:08		New key binding (context "default"): meta-q => '/close'
+2017-02-13 22:35:14		Key "meta-q" unbound (context: "default")
+2017-02-13 22:35:14		New key binding (context "default"): meta-q => /close
+2017-02-13 22:41:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-14 13:41:34		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-14 14:50:23		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-15 01:35:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-15 11:00:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-15 21:13:32		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-16 01:38:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-16 11:38:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-16 17:05:27		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-02-16 17:18:02		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer

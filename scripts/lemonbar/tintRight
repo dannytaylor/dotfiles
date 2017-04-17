@@ -1,15 +1,16 @@
 # ID 1
 rounded = 0
-border_width = 0
-background_color = #363636 93
-border_color = #FFFFFF 93
+border_width = 1
+background_color = #333333 93
+border_color = #555555 93
+border_sides = B
 
 # Panel
 panel_monitor = all
 panel_position = top right horizontal
-panel_size = 208 24
+panel_size = 248 24
 panel_margin = 0 0
-panel_padding = 4 0 4
+panel_padding = 8 0 4
 panel_dock = 0
 wm_menu = 1
 panel_layer = top
@@ -22,4 +23,4 @@ systray_padding = 0 4 8
 systray_sort = ascending
 systray_background_id = 0
 systray_icon_size = 24
-systray_icon_asb = 70 0 0
+systray_icon_asb = 93 0 0

@@ -6,4 +6,4 @@ then
 	sleep 2
 fi
 
-echo '*/join #'$1 > ~/.weechat/weechat_fifo_*
+echo '*/join #'$1 > ~/.weechat/weechat_fifo

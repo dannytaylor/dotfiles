@@ -29,11 +29,11 @@ music() {
   cur=`mpc`
   song=`mpc current`
   nex="%{A:mpc -q next:} %{A}"
-  click="%{A:mpc -q toggle:}%{A2:termite -e ncmpcpp:}%{A3:mpc -q stop:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:}"
+  click="%{A:mpc -q toggle:}%{A2:termite -e ncmpcpp&:}%{A3:mpc -q stop:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:}"
   clickend="%{A}%{A}%{A}%{A}%{A}"
   if [[ $cur == *"playing"* ]]
   then
-    mus="";
+    mus=" $song";
   elif [[ $cur == *"paused"* ]]
   then
     mus=""
@@ -54,7 +54,7 @@ tray() {
 }
 
 volume() {
-    echo -e "%{A:xfce4-terminal -e pulsemixer&:} %{A}"
+    echo -e "%{A:pavucontrol&:} %{A}"
 }
 
 clock() {
@@ -80,12 +80,13 @@ while :; do
     p=""
     l="$SS$(groups) %{B$COLOUR_BG1}%{F$COLOUR_FG1}$(window)%{F-}$SE"
     c="$SS $p $(clock)$SE"
-    r=" $(volume) $(music) "
-    echo "%{l}%{B$COLOUR_BG2}  $l$p%{c}$c%{r}%{B$COLOUR_BG2}$p $r%{B$COLOUR_BG1}"
+    # 
+    r="$(volume) $(music) "
+    echo "%{l}%{B$COLOUR_BG2}  $l$p%{c}$c%{r}%{B$COLOUR_BG1}$p $r%{B$COLOUR_BG1}"
     sleep 0.25
 done |
 
-lemonbar -a 32 -g "1680x24+32" -f "$FONT1" -f "$FONT2" -F "$COLOUR_FG1" -B "$COLOUR_BG1" | sh &
+lemonbar -a 32 -g "1640x24+32" -f "$FONT1" -f "$FONT2" -F "$COLOUR_FG1" -B "$COLOUR_BG1" | sh &
 tint2 -c /home/dt/bin/lemonbar/tintLeft &  
 tint2 -c /home/dt/bin/lemonbar/tintRight &
 

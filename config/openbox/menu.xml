@@ -8,7 +8,7 @@
 		</item>
 		<item label="discord">
 			<action name="Execute">
-				<command>discord-ptb</command>
+				<command>discord-canary</command>
 			</action>
 		</item>
 		<item label="mumble">
@@ -18,7 +18,7 @@
 		</item>
 		<item label="firefox">
 			<action name="Execute">
-				<command>firefox</command>
+				<command>firefox-nightly</command>
 			</action>
 		</item>
 		<item label="skype">
@@ -87,7 +87,7 @@
 	<menu id="apps-games-menu" label="games">
 		<item label="steam">
 			<action name="Execute">
-				<execute>steam</execute>
+				<execute>steam-native</execute>
 			</action>
 		</item>
 		<item label="itch.io">
@@ -145,7 +145,7 @@
 	<menu id="root-menu" label="Openbox">
 		<item label="term">
 			<action name="Execute">
-				<execute>gnome-terminal</execute>
+				<execute>termite</execute>
 			</action>
 		</item>
 		<item label="web">
@@ -155,7 +155,7 @@
 		</item>
 		<item label="files">
 			<action name="Execute">
-				<command>pcmanfm</command>
+				<command>thunar</command>
 			</action>
 		</item>
 		<menu id="root-menu-194058" label="dev">
@@ -171,7 +171,7 @@
 			</item>
 			<item label="gitkraken">
 				<action name="Execute">
-					<execute>gitkraken</execute>
+					<execute>LD_PRELOAD=/usr/lib/libcurl.so.3 gitkraken</execute>
 				</action>
 			</item>
 			<item label="geany">
@@ -201,8 +201,14 @@
 		<menu id="apps-fileman-menu"/>
 		<menu id="system-menu"/>
 		<separator/>
-		<!--menu id="proc-menu" label="weather" execute="/home/dt/bin/obweather" /-->
-		<menu id="logout" label="logout">
+
+		<menu id="proc-menu" label="weather" execute="/home/dt/bin/obweather"/>
+		<item label="logout">
+			<action name="Execute">
+				<execute>oblogout</execute>
+			</action>
+		</item>
+		<!--menu id="logout" label="logout">
 			<item label="logout">
 				<action name="Execute">
 					<execute>
@@ -224,5 +230,5 @@
 					</execute>
 				</action>
 			</item>
-		</menu>
+		</menu-->
 </openbox_menu>

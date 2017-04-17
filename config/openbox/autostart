@@ -30,7 +30,10 @@ nitrogen --restore &
 #hsetroot -solid '#6095c2' &
 
 #tint2 &
-/home/dt/bin/lemonbar/panel
+#/home/dt/bin/lemonbar/panel
+
+polybar top &
+tint2 ~/bin/lemonbar/tintRight &
 
 
 plank &
@@ -51,11 +54,17 @@ indicator-kdeconnect &
 
 guake &
 
-steam &
+steam-native &
 
 /home/dt/bin/tablet-settings.sh &
 
 mpd &
+
+sleep 3
+
+streamlink-twitch-gui&
+
+discord-canary&
 
 
 

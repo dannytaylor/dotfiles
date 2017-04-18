@@ -121,8 +121,8 @@ menu.items.font:shadow=n
 menu.title.text.font:shadow=n
 
 #borders
-window.active.border.color: #3799FD
-window.inactive.border.color: #e60053
+window.active.border.color: #e60053
+window.inactive.border.color: #555555
 menu.border.color: #1d1d1d
 window.active.client.color: #ffffff
 window.inactive.client.color: #cccccc

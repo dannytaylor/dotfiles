@@ -79,27 +79,6 @@ scroll-down = xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + 1) % 4)
 bspwm-focused-overline = ${colors.linecolor}
 bspwm-focused-underline = #cc333333
 
-[bar/bottom]
-inherit = bar/top
-
-enable-ipc = true
-monitor = ${env:MONITOR:HDMI1}
-bottom = true
-
-underline-size = ${bar/top.overline-size}
-overline-size = ${bar/top.underline-size}
-
-modules-left = bspwm i3
-modules-center =
-modules-right = github fs-root date power-menu
-
-wm-restack = ${bar/top.wm-restack}
-
-tray-position = none
-
-# bar/module specific vars
-bspwm-focused-overline = #cc333333
-bspwm-focused-underline = ${colors.linecolor}
 
 [module/github]
 type = internal/github
@@ -201,14 +180,14 @@ label-visible-padding = ${module/bspwm.label-empty-padding}
 [module/cpu]
 type = internal/cpu
 interval = 2
-label = %percentage%%
+label = %{A1:guake -t &:}%percentage%%{A}%
 format-prefix = " "
 format-prefix-foreground = #666
 
 [module/memory]
 type = internal/memory
 interval = 2
-label = %percentage_used%%
+label = %{A1:guake -t &:}%percentage_used%%{A}%
 format-prefix = " "
 format-prefix-foreground = #666
 
@@ -254,10 +233,10 @@ label-connected = %local_ip%
 
 [module/date]
 type = internal/date
-label = %{O248}%{A1:gsimplecal&:}   %{F#aaa}%date%%{F-}  %time% %{A}
+label = %{O248}%{A1:gsimplecal&:} %{F#555555} %{F-}%date% %time% %{A}
 date = %d %b
 time = %H:%M
-interval = 5
+interval = 30
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -276,7 +255,7 @@ speaker-soundcard = default
 headphone-soundcard = default
 headphone-id = 9
 
-format-volume = %{A3:pavucontrol&:}<ramp-volume><label-volume>%{A}
+format-volume = %{A3:termite -e pulsemixer&:}<ramp-volume><label-volume>%{A}
 label-volume =
 label-volume-foreground = ${root.foreground}
 
@@ -330,7 +309,9 @@ animation-charging-framerate = 750
 type = internal/mpd
 
 ;format-online = <label-time>  <bar-progress>  <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>
-format-online = %{A1:termite -e ncmpcpp&:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:}  <label-song> %{A}%{A}%{A} <icon-stop><toggle><icon-next> <icon-random>
+format-online = %{A1:termite -e ncmpcpp&:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:} <label-song> %{A}%{A}%{A} <icon-stop><toggle><icon-next> <icon-random>
+format-online-prefix = " "
+format-online-prefix-foreground = #555555
 format-online-spacing = 0
 format-online-background = #ee333333
 format-online-underline = #cc333333
@@ -453,6 +434,7 @@ type = custom/script
 interval = 600
 format = <label>
 format-prefix = ""
+format-prefix-foreground = #555555
 exec = ~/.config/polybar/weather
 
 [module/ewmh]

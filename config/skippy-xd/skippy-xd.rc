@@ -46,9 +46,9 @@ tintOpacity = 0
 opacity = 200
 
 [highlight]
-tint = #101020
+tint = #e60053
 tintOpacity = 64
-opacity = 255
+opacity = 200
 
 [tooltip]
 show = true
@@ -57,4 +57,4 @@ background = #2d2d2d
 opacity = 128
 text = #ffffff
 textShadow = black
-font = Univers-11:weight=bold
+font = Roboto-16

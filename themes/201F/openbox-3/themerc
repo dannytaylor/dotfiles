@@ -129,7 +129,7 @@ window.inactive.client.color: #cccccc
 
 
 # Everything else
-border.width: 2
+border.width: 4
 menu.border.width: 4
 padding.width: 4
 padding.height: 4

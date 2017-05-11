@@ -58,6 +58,15 @@ export QT_STYLE_OVERRIDE='gtk2'
 alias steam-wine='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam/Steam.exe  >/dev/null 2>&1 &'
 export STEAM_FRAME_FORCE_CLOSE=1
 
+#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+#    ssh-agent > ~/.ssh-agent-thing
+#fi
+#if [[ "$SSH_AGENT_PID" == "" ]]; then
+#    eval "$(<~/.ssh-agent-thing)"
+#fi
+#
+#eval $(keychain --eval --quiet id_ed25519 id_rsa ~/.ssh/id_rsa)
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 

@@ -48,7 +48,7 @@ clipit &
 
 #connman-gtk &
 
-skippy-xd --start-daemon &
+#skippy-xd --start-daemon &
 
 indicator-kdeconnect &
 

@@ -309,7 +309,7 @@ animation-charging-framerate = 750
 type = internal/mpd
 
 ;format-online = <label-time>  <bar-progress>  <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>
-format-online = %{A1:termite -e ncmpcpp&:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:} <label-song> %{A}%{A}%{A} <icon-stop><toggle><icon-next> <icon-random>
+format-online = %{A3:termite -e ncmpcpp&:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:} <label-song> %{A}%{A}%{A} <icon-stop><toggle><icon-next> <icon-random>
 format-online-prefix = " "
 format-online-prefix-foreground = #555555
 format-online-spacing = 0
@@ -411,7 +411,7 @@ label-indicator-background = ${colors.accent}
 
 [module/xwindow]
 type = internal/xwindow
-format = %{A1:skippy-xd --activate-window-picker:}%{F#e60053}%{F-} <label>%{A}
+format = %{A1:skippy-xd:}%{F#e60053}%{F-} <label>%{A}
 label-maxlen = 75
 
 [module/counter]

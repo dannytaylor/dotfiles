@@ -1,7 +1,7 @@
 #! /bin/bash
 
 xsetwacom --set 'HUION H610 Pen stylus' rotate half
-xsetwacom --set 'HUION H610 Pad pad' Button 1 "key +ctrl +z -z -ctrl" 
+xsetwacom --set 'HUION H610 Pad pad' Button 1 "key +ctrl +z" 
 xsetwacom --set 'HUION H610 Pad pad' Button 2 "key e"
 xsetwacom --set 'HUION H610 Pad pad' Button 3 "key +ctrl"
 xsetwacom --set 'HUION H610 Pad pad' Button 8 "key +ctrl +minus"    

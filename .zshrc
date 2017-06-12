@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
 export QT_STYLE_OVERRIDE='gtk2'
 alias steam-wine='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam/Steam.exe  >/dev/null 2>&1 &'
 export STEAM_FRAME_FORCE_CLOSE=1
@@ -101,3 +101,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+. ~/.luaver/luaver
+
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"

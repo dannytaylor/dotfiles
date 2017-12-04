@@ -159,6 +159,11 @@
 			</action>
 		</item>
 		<menu id="root-menu-194058" label="dev">
+			<item label="sublime">
+				<action name="Execute">
+					<execute>subl3</execute>
+				</action>
+			</item>
 			<item label="atom">
 				<action name="Execute">
 					<execute>atom</execute>
@@ -182,11 +187,6 @@
 			<item label="godot">
 				<action name="Execute">
 					<execute>godot</execute>
-				</action>
-			</item>
-			<item label="polycode">
-				<action name="Execute">
-					<execute>polycode</execute>
 				</action>
 			</item>
 		</menu>

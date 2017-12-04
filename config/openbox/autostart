@@ -32,8 +32,13 @@ nitrogen --restore &
 #tint2 &
 #/home/dt/bin/lemonbar/panel
 
+xrandr --output DVI-D-0 --pos 0x0 --rotate left --noprimary
+xrandr --output DisplayPort-0 --pos 1080x0 --preferred --primary
+
+sleep 2 &
+
 polybar top &
-tint2 ~/bin/lemonbar/tintRight &
+tint2 ~/bin/tintRight &
 
 
 plank &
@@ -46,7 +51,7 @@ dropbox &
 
 clipit &
 
-#connman-gtk &
+#czonnman-gtk &
 
 #skippy-xd --start-daemon &
 
@@ -54,7 +59,7 @@ indicator-kdeconnect &
 
 guake &
 
-steam-native &
+steam &
 
 /home/dt/bin/tablet-settings.sh &
 
@@ -62,7 +67,7 @@ mpd &
 
 sleep 3
 
-streamlink-twitch-gui&
+#streamlink-twitch-gui&
 
 discord-canary&
 

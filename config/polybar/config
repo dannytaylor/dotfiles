@@ -25,8 +25,8 @@ margin-bottom = 0
 
 [bar/top]
 enable-ipc = true
-monitor = ${env:MONITOR:DVI-D-0}
-width = 1672
+monitor = ${env:MONITOR:DisplayPort-0}
+width = 2312
 height = 23
 
 background = ${colors.background}
@@ -255,7 +255,7 @@ speaker-soundcard = default
 headphone-soundcard = default
 headphone-id = 9
 
-format-volume = %{A3:termite -e pulsemixer&:}<ramp-volume><label-volume>%{A}
+format-volume = %{A3:pavucontrol&:}<ramp-volume><label-volume>%{A}
 label-volume =
 label-volume-foreground = ${root.foreground}
 

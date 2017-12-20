@@ -59,7 +59,7 @@ indicator-kdeconnect &
 
 guake &
 
-steam &
+steam-native &
 
 /home/dt/bin/tablet-settings.sh &
 
@@ -69,7 +69,7 @@ sleep 3
 
 #streamlink-twitch-gui&
 
-discord-canary&
+discord&
 
 
 

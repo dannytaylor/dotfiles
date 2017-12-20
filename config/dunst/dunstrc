@@ -143,6 +143,7 @@
 
     # Align icons left/right/off
     icon_position = left
+    max_icon_size = 32
 
     # Paths to default icons.
     icon_folders = /home/tatou/.icons/Pixelfaker/apps/48x48/:/home/tatou/Pixelfaker/status/48x48/
@@ -167,7 +168,7 @@
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1".
-    history = ctrl+BackSpace
+    history = ctrl+shift+BackSpace
     
     # Context menu.
     context = ctrl+shift+period

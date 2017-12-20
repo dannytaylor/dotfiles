@@ -275,6 +275,16 @@
 			 <!-- <command>dmenu_run -i -x 500 -y 400 -w 920 -h 40 -l 4 -fn 'Open Sans' -nb '#201F1D' -nf '#eddec9' -sb '#8F3724' -sf '#eddec9'</command>
  -->     </action>
     </keybind>
+    <keybind key="A-F3">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Run Program</name>
+        </startupnotify>
+            <command>rofi -show drun</command>
+			 <!-- <command>dmenu_run -i -x 500 -y 400 -w 920 -h 40 -l 4 -fn 'Open Sans' -nb '#201F1D' -nf '#eddec9' -sb '#8F3724' -sf '#eddec9'</command>
+ -->     </action>
+    </keybind>
     <keybind key="W-F1">
       <action name="Execute">
         <startupnotify>
@@ -874,10 +884,8 @@
     <application name="Steam" class="Steam">
       <desktop>3</desktop>
     </application>
-    <application name="discord" class="discord">
-      <desktop>3</desktop>
-    </application>
-        <application name="discord-canary" class="discord-canary">
+
+    <application name="discord-canary" class="discord-canary">
       <desktop>3</desktop>
     </application>
   </applications>

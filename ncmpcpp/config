@@ -1,0 +1,45 @@
+# NCMPCPP CONFIGURATION
+# FOR SETTINGS INFORMATION, SEE /usr/share/doc/ncmpcpp/config
+
+# DIRECTORY SETTINGS
+  mpd_music_dir = "/home/megu/music"
+  lyrics_directory="~/.ncmpcpp/lyrics"  
+
+# BEHAVIOUR  
+  mpd_crossfade_time ="3"
+  mpd_disable_highlight_delay="3"
+  autocenter_mode = "yes"
+  centered_cursor = "yes"
+  display_screens_numbers_on_start="no"
+  mouse_support = "no"
+
+# USER INTERFACE
+  progressbar_look = "─░─"
+  titles_visibility = "no"
+  discard_colors_if_item_is_selected = "yes"
+  clock_display_seconds="yes"
+  display_bitrace="no"
+  empty_tag_marker="--"
+  playlist+shorten_total_times="yes"
+
+# USER INTERFACE - PLAYLIST
+  browser_playlist_prefix="$5[LIST] $9"
+  song_list_format = "{$5%n $2•$0 }{%t}$R$5[$9%b$5]$0"
+  song_status_format = "$5%a$0 $2• $0%t $4"
+  selected_item_prefix="$2"
+  selected_item_suffix="$9"
+
+# COLOR
+  color1              = "yellow"
+  color2              = "white"
+  header_window_color = "yellow"
+  main_window_color   = "white"
+  main_window_highlight_color = "yellow"
+  statusbar_color     = "white"
+  progressbar_color   = "white"
+  empty_tag_color     = "blue"
+  state_line_color    = "white"
+  state_flags_color   = "white"
+  active_column_color = "yellow"
+  main_window_highlight_color    = "yellow"
+  alternative_ui_separator_color = "white"

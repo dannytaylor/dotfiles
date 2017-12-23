@@ -1,0 +1,49 @@
+Dec 21 00:08 : errno: Failed to open /var/lib/mpd/state: No such file or directory
+Dec 21 00:08 : avahi: Service 'Music Player' successfully established.
+Dec 21 17:50 : zeroconf: No global port, disabling zeroconf
+Dec 22 07:11 : zeroconf: No global port, disabling zeroconf
+Dec 22 15:01 : zeroconf: No global port, disabling zeroconf
+Dec 22 15:32 : client: [0] opened from 127.0.0.1:53240
+Dec 22 15:32 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 22 15:33 : playlist: No such playlist
+Dec 22 15:33 : playlist: No such playlist
+Dec 22 15:33 : client: [0] closed
+Dec 22 16:26 : zeroconf: No global port, disabling zeroconf
+Dec 22 16:30 : zeroconf: No global port, disabling zeroconf
+Dec 22 16:55 : client: [0] opened from 127.0.0.1:39932
+Dec 22 16:55 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 22 17:00 : client: [0] closed
+Dec 22 17:02 : zeroconf: No global port, disabling zeroconf
+Dec 22 17:04 : client: [0] opened from 127.0.0.1:46282
+Dec 22 17:04 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 22 17:04 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:04 : client: [0] closed
+Dec 22 17:07 : client: [1] opened from 127.0.0.1:46342
+Dec 22 17:07 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:07 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:07 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:07 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:07 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:07 : client: [1] closed
+Dec 22 17:11 : zeroconf: No global port, disabling zeroconf
+Dec 22 17:11 : client: [0] opened from 127.0.0.1:46516
+Dec 22 17:11 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:12 : client: [0] closed
+Dec 22 17:12 : client: [1] opened from 127.0.0.1:46530
+Dec 22 17:12 : client: [1] closed
+Dec 22 17:21 : client: [2] opened from 127.0.0.1:46656
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : client: [2] closed
+Dec 22 17:21 : client: [3] opened from 127.0.0.1:46658
+Dec 22 17:21 : client: [3] closed
+Dec 22 17:21 : client: [4] opened from 127.0.0.1:46660
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:21 : client: [4] closed
+Dec 22 17:21 : zeroconf: No global port, disabling zeroconf
+Dec 22 17:21 : client: [0] opened from 127.0.0.1:46662
+Dec 22 17:21 : errno: Failed to stat /home/dt/Music: Permission denied
+Dec 22 17:22 : client: [0] closed

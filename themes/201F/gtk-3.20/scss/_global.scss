@@ -5,12 +5,12 @@
 // default color scheme
 $bg_color: if($variant == "dark", #424242, #EDE8DF);
 $fg_color: if($variant == "dark", #EDE8DF, #424242);
-$base_color: if($variant == "dark", #424242, #ffffff);
-$text_color: if($variant == "dark", #ffffff, #424242);
-$button_bg_color: if($variant == "dark", #424242, #e5e0d7);
-$button_fg_color: if($variant == "dark", #e5e0d7, #424242);
-$header_button_bg_color: #e5e0d7;
-$header_button_fg_color: #424242;
+$base_color: if($variant == "dark", #0e0e0e, #f8f8f8);
+$text_color: if($variant == "dark", #f8f8f8, #0e0e0e);
+$button_bg_color: if($variant == "dark", #353535, #EDE8DF);
+$button_fg_color: if($variant == "dark", #EDE8DF, #353535);
+$header_button_bg_color: #EDE8DF;
+$header_button_fg_color: #0e0e0e;
 $selected_bg_color: #008cfe;
 $selected_fg_color: #EDE8DF;
 $tooltip_bg_color: #EDE8DF;
@@ -33,8 +33,8 @@ $dark_shadow: shade($fg_color, .2);
 $light_shadow: lighten($bg_color, .4);
 
 // caret
-$primary_caret_color: #1a1a1a;
-$secondary_caret_color: #1a1a1a;
+$primary_caret_color: #0e0e0e;
+$secondary_caret_color: #0e0e0e;
 $caret_aspect_ratio: 0.04;
 
 // white and black
@@ -102,8 +102,8 @@ $lightdm_bg_color: $dark_bg_color;
 $lightdm_fg_color: $dark_fg_color;
 
 $wm_bg: $titlebar_bg_color;
-$wm_border_focused: #e60053;
-$wm_border_unfocused: #555555;
+$wm_border_focused: #353535;
+$wm_border_unfocused: #D8CEBE;
 $wm_title_focused: mix($titlebar_fg_color, $titlebar_bg_color, .1);
 $wm_title_unfocused: mix($titlebar_fg_color, $titlebar_bg_color, .4);
 $wm_icons_focused: mix($titlebar_fg_color, $titlebar_bg_color, .1);
@@ -143,8 +143,8 @@ $drop_target_color: #4e9a06;
 
 // widget styles
 $_roundness: 0;
-$_spacing: 4;
+$_spacing: 3;
 $roundness: 0px;
-$spacing: 4px;
+$spacing: 3px;
 $gradient: 0.0;
 $contrast: .8;

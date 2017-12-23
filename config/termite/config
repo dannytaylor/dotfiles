@@ -1,5 +1,5 @@
 [options]
-font = Source Code Pro 8
+font = Monospace 10
 icon_name = terminal
 scrollback_lines = 10000
 

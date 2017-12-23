@@ -1,8 +1,8 @@
-#!/bin/python
+#!/usr/bin/python3
 
 import urllib.request, json
 
-city = "Vancouver, CA"
+city = "Esquimalt, CA"
 api_key = "a21473c7a089b065413638c9b22943f9" 
 
 weather = eval(str(urllib.request.urlopen("http://api.openweathermap.org/data/2.5/weather?q={}&APPID={}".format(city, api_key)).read())[2:-1])

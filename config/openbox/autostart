@@ -13,9 +13,8 @@
 #fi
 
 
-xset +fp /home/dt/.fonts&
-
-xset fp rehash&
+xset +fp /home/dt/.fonts
+xset fp rehash &
 
 
 xset m 1 1 &
@@ -26,19 +25,18 @@ redshift-gtk &
 
 compton &
 
-nitrogen --restore &
 #hsetroot -solid '#6095c2' &
 
 #tint2 &
-#/home/dt/bin/lemonbar/panel
 
+udisksctl mount -b /dev/sdb6
 xrandr --output DVI-D-0 --pos 0x0 --rotate left --noprimary
 xrandr --output DisplayPort-0 --pos 1080x0 --preferred --primary
 
 sleep 2 &
 
 polybar top &
-tint2 ~/bin/tintRight &
+#tint2 ~/.config/openbox/tintRight &
 
 
 plank &
@@ -51,7 +49,7 @@ dropbox &
 
 clipit &
 
-#czonnman-gtk &
+#connman-gtk &
 
 #skippy-xd --start-daemon &
 
@@ -59,9 +57,9 @@ indicator-kdeconnect &
 
 guake &
 
-steam-native &
+#steam-native &
 
-/home/dt/bin/tablet-settings.sh &
+#/home/dt/bin/tablet-settings.sh &
 
 mpd &
 
@@ -70,6 +68,8 @@ sleep 3
 #streamlink-twitch-gui&
 
 discord&
+
+nitrogen --restore &
 
 
 

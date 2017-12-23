@@ -26,8 +26,8 @@ margin-bottom = 0
 [bar/top]
 enable-ipc = true
 monitor = ${env:MONITOR:DisplayPort-0}
-width = 2312
-height = 23
+width = 2560
+height = 24
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -45,22 +45,46 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = artwiz lime:pixelsize=10;2
-font-1 = wuncon siji:pixelsize=10;2
-font-2 = roboto:size=8;2
+font-0 = lime:pixelsize=10;2
+font-1 = siji:pixelsize=10;2
+font-2 = Monospace:size=8;2
+
+tray-position = right
+
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = false
+
+; Tray icon max size
+tray-maxsize = 16
+
+; Enable pseudo transparency
+; Will automatically be enabled if a fully transparent
+; background color is defined using `tray-background`
+tray-transparent = false
+
+; Background color for the tray container
+; By default the tray container will use the bar
+; background color.
+; Note: 32 bit alpha blending is not supported.
+tray-background = ${root.background}
+
+; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+tray-offset-x = 0
+tray-offset-y = 0
+
+; Pad the sides of each tray icon
+tray-padding = 8
+
+; Scale factor for tray clients
+tray-scale = 1.0
+
 
 modules-left = ewmh xwindow
 ;modules-center = volume 
 modules-center = date weather
 modules-right =  cpu memory vpncheck volume mpd 
 
-tray-position = 
-tray-padding = 4
-
-tray-maxsize = 16
-;tray-transparent = true
-;tray-detached = true
-;tray-offset-x = 50
 
 
 ;dim-value = 0.2
@@ -307,7 +331,9 @@ animation-charging-framerate = 750
 
 [module/mpd]
 type = internal/mpd
-
+;host = 127.0.0.1
+;port = 6600
+;interval = 2
 ;format-online = <label-time>  <bar-progress>  <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>
 format-online = %{A3:termite -e ncmpcpp&:}%{A4:mpc -q volume +5:}%{A5:mpc -q volume -5:} <label-song> %{A}%{A}%{A} <icon-stop><toggle><icon-next> <icon-random>
 format-online-prefix = " "
@@ -315,7 +341,7 @@ format-online-prefix-foreground = #555555
 format-online-spacing = 0
 format-online-background = #ee333333
 format-online-underline = #cc333333
-format-online-padding = 2
+format-online-padding = 4
 
 format-offline = <label-offline>
 format-offline-foreground = #777
@@ -326,6 +352,7 @@ label-song-maxlen = 40
 label-song-ellipsis = true
 
 label-time-foreground = #777
+
 
 icon-prev = 
 icon-stop = 

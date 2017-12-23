@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 	<menu id="apps-net-menu" label="internet">
-		<item label="yac">
-			<action name="Execute">
-				<command>YACReaderLibrary</command>
-			</action>
-		</item>
 		<item label="discord">
 			<action name="Execute">
-				<command>discord-canary</command>
+				<command>discord</command>
 			</action>
 		</item>
 		<item label="mumble">
@@ -18,12 +13,7 @@
 		</item>
 		<item label="firefox">
 			<action name="Execute">
-				<command>firefox-nightly</command>
-			</action>
-		</item>
-		<item label="skype">
-			<action name="Execute">
-				<command>skype</command>
+				<command>firefox-trunk</command>
 			</action>
 		</item>
 		<item label="ventrilo">
@@ -43,7 +33,7 @@
 		</item>
 		<item label="twitch">
 			<action name="Execute">
-				<command>streamlink-twitch-gui</command>
+				<command>twitch</command>
 			</action>
 		</item>
 	</menu>
@@ -78,16 +68,21 @@
 				<command>krita</command>
 			</action>
 		</item>
-		<item label="mypaint">
+		<item label="rexpaint">
 			<action name="Execute">
-				<command>mypaint</command>
+				<command>rexpaint</command>
+			</action>
+		</item>
+		<item label="magicavoxel">
+			<action name="Execute">
+				<command>magicavoxel</command>
 			</action>
 		</item>
 	</menu>
 	<menu id="apps-games-menu" label="games">
 		<item label="steam">
 			<action name="Execute">
-				<execute>steam-native</execute>
+				<execute>steam</execute>
 			</action>
 		</item>
 		<item label="itch.io">
@@ -104,7 +99,7 @@
 	<menu id="system-menu" label="sys">
 		<item label="keepass">
 			<action name="Execute">
-				<command>keepass2</command>
+				<command>keepassx</command>
 			</action>
 		</item>
 		<item label="libreoffice">
@@ -131,12 +126,7 @@
 			<action name="Execute">
 				<command>nitrogen</command>
 			</action>
-		</item>
-		<item label="restart-lemonbar">
-			<action name="Execute">
-				<command>/home/dt/bin/restart-bar</command>
-			</action>
-		</item>
+		</item>>
 		<item label="reconfigure">
 			<action name="Reconfigure"/>
 		</item>
@@ -169,14 +159,9 @@
 					<execute>atom</execute>
 				</action>
 			</item>
-			<item label="vscode">
-				<action name="Execute">
-					<execute>vscode</execute>
-				</action>
-			</item>
 			<item label="gitkraken">
 				<action name="Execute">
-					<execute>LD_PRELOAD=/usr/lib/libcurl.so.3 gitkraken</execute>
+					<execute>gitkraken</execute>
 				</action>
 			</item>
 			<item label="geany">
@@ -184,9 +169,24 @@
 					<execute>geany</execute>
 				</action>
 			</item>
-			<item label="godot">
+			<item label="godot3">
 				<action name="Execute">
-					<execute>godot</execute>
+					<execute>godot3</execute>
+				</action>
+			</item>
+			<item label="godot2">
+				<action name="Execute">
+					<execute>godot2</execute>
+				</action>
+			</item>
+			<item label="tic80">
+				<action name="Execute">
+					<execute>tic80</execute>
+				</action>
+			</item>
+			<item label="pico8">
+				<action name="Execute">
+					<execute>pico8</execute>
 				</action>
 			</item>
 		</menu>
@@ -202,7 +202,7 @@
 		<menu id="system-menu"/>
 		<separator/>
 
-		<menu id="proc-menu" label="weather" execute="/home/dt/bin/obweather"/>
+		<!--<menu id="proc-menu" label="weather" execute="/home/dt/.config/openbox/obweather"/>-->
 		<item label="logout">
 			<action name="Execute">
 				<execute>oblogout</execute>

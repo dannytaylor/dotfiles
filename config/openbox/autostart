@@ -17,7 +17,7 @@ xset +fp /home/dt/.fonts
 xset fp rehash &
 
 
-xset m 1 1 &
+xset m 0 0 &
 
 #xrandr --dpi 96 &
 
@@ -27,19 +27,18 @@ compton &
 
 #hsetroot -solid '#6095c2' &
 
-#tint2 &
-
-udisksctl mount -b /dev/sdb6
+udisksctl mount -b /dev/sdb6 &
 xrandr --output DVI-D-0 --pos 0x0 --rotate left --noprimary
-xrandr --output DisplayPort-0 --pos 1080x0 --preferred --primary
+xrandr --output DisplayPort-0 --pos 1080x184 --preferred --primary
 
-sleep 2 &
+nitrogen --restore &
 
 polybar top &
-#tint2 ~/.config/openbox/tintRight &
+
+tint2 ~/.config/openbox/tintRight &
 
 
-plank &
+sleep 1
 
 #pulseaudio &
 
@@ -63,13 +62,16 @@ guake &
 
 mpd &
 
-sleep 3
+sleep 1
 
 #streamlink-twitch-gui&
 
 discord&
 
-nitrogen --restore &
+sleep 1
+
+plank &
+
 
 
 

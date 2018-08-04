@@ -3,12 +3,11 @@ rounded = 0
 border_width = 0
 background_color = #333333 93
 border_color = #555555 100
-border_sides = B
 
 # Panel
 panel_monitor = 2
 panel_position = top right horizontal
-panel_size = 248 24
+panel_size = 280 25
 panel_margin = 0 0
 panel_padding = 8 0 4
 panel_dock = 0

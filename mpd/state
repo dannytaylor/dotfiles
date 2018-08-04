@@ -1,9 +1,8 @@
-sw_volume: 29
+sw_volume: 31
 audio_device_state:1:mpd
-state: play
-current: 0
-time: 120.250000
-random: 0
+state: stop
+current: 122
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -11,12 +10,254 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:tracks/Eaten By Dogs - Only You.mp3
+1:tracks/Kabanjak - Birdy Hop.mp3
+2:tracks/Supa Bwe - Fool Wit It Freestyle (Ft Chance The Rapper).mp3
+3:tracks/Immigrant Union - Shameless.mp3
+4:tracks/Michael Claytor and Friends - Birth of An Outlaw.mp3
+5:tracks/Amigo the Devil - Perfect Wife.mp3
+6:tracks/PatchworkGuilt - Washing Line.mp3
+7:tracks/MATLOCK - Runaround.mp3
+8:tracks/Ludwig Göransson - Greendale Is Where I Belong (Extended).mp3
+9:tracks/OMORI - Pure Imagination.mp3
+10:tracks/Moon Hooch - NPR Tiny Desk Concert.mp3
+11:tracks/Elliot Maginot - Monsters at War.mp3
+12:tracks/Sufjan Stevens, Bryce Dessner, Nico Muhly - NPR Music Field Recordings.mp3
+13:tracks/The East Pointers - Secret Victory.mp3
+14:tracks/Brand New - 1996.mp3
+15:tracks/Queen - '39.mp3
+16:tracks/College feat. Electric Youth - A Real Hero.mp3
+17:tracks/Groenland - Nothing Personal.mp3
+18:tracks/Echosmith - Cool Kids.mp3
+19:tracks/Broken Bells - After the Disco.mp3
+20:tracks/Broken Bells - Holding On for Life.mp3
+21:tracks/Alvvays - Archie, Marry Me.mp3
+22:tracks/Alvvays - Next of Kin.mp3
+23:tracks/LCD Soundsystem - Oh Baby.mp3
+24:tracks/The Bravery - An Honest Mistake.mp3
+25:tracks/Shakey Graves feat. Esmé Patterson - Dearly Departed.mp3
+26:tracks/WALK THE MOON - Anna Sun.mp3
+27:tracks/FM-84 feat. Ollie Wride - Running in the Night.mp3
+28:tracks/Seal - Kiss From a Rose.mp3
+29:tracks/The Temper Trap - Sweet Disposition.mp3
+30:tracks/The Elwins - Hey! Ya, You.mp3
+31:tracks/Depeche Mode - Behind the Wheel (remix).mp3
+32:tracks/David Bowie - Starman.mp3
+33:tracks/Muse - Knights of Cydonia.mp3
+34:tracks/Vangelis - Rachel's Song.mp3
+35:tracks/Jimmy Eat World - A Praise Chorus.mp3
+36:tracks/No Doubt - Sunday Morning.mp3
+37:tracks/Paul Desmond feat. Jim Hall - Aliança.mp3
+38:tracks/SIAMÉS - The Wolf.mp3
+39:tracks/mewithoutYou - Messes of Men.mp3
+40:tracks/Radiohead - Burn the Witch.mp3
+41:tracks/Mitski - Francis Forever.mp3
+42:tracks/blink-182 - She's Out of Her Mind.mp3
+43:tracks/James Horner - The Lighthouse - Casper & Kat.mp3
+44:tracks/The Beatles - While My Guitar Gently Weeps.mp3
+45:tracks/Chicago - 25 or 6 to 4.mp3
+46:tracks/Death Cab for Cutie - Soul Meets Body.mp3
+47:tracks/Black Moth Super Rainbow - Psychic Love Damage.mp3
+48:tracks/The 88 - At Least It Was Here (Community Main Title) - Full Length Version.mp3
+49:tracks/Fever the Ghost - Source.mp3
+50:tracks/Crystal Castles - Vanished.mp3
+51:tracks/Tame Impala - Let It Happen.mp3
+52:tracks/Tame Impala - The Less I Know the Better.mp3
+53:tracks/The Rural Alberta Advantage - Stamp.mp3
+54:tracks/The Rural Alberta Advantage - Tornado '87.mp3
+55:tracks/We Lost the Sea - A Gallant Gentleman.mp3
+56:tracks/Beach House - Space Song.mp3
+57:tracks/Audioslave - Doesn't Remind Me.mp3
+58:tracks/DatA feat. Benny Sings - Don't Sing (feat. Benny Sings).mp3
+59:tracks/Crywolf - Halloween, 1987.mp3
+60:tracks/Carly Rae Jepsen - Boy Problems.mp3
+61:tracks/Carly Rae Jepsen - When I Needed You.mp3
+62:tracks/Marina and the Diamonds - Teen Idle.mp3
+63:tracks/New Order - Temptation.mp3
+64:tracks/Dan Croll - Tokyo.mp3
+65:tracks/tfvsjs - Pop Song 1.0.mp3
+66:tracks/Phantogram - When I'm Small.mp3
+67:tracks/Clio - Faces.mp3
+68:tracks/Mazzy Star - Fade Into You.mp3
+69:tracks/Beth Ditto - In and Out.mp3
+70:tracks/Failure - Another Space Song.mp3
+71:tracks/Bonnie Tyler - Total Eclipse of the Heart.mp3
+72:tracks/Fitz and The Tantrums - Fool.mp3
+73:tracks/Harvey Danger - Flagpole Sitta.mp3
+74:tracks/Vitalic - Poison Lips.mp3
+75:tracks/Fleet Foxes - White Winter Hymnal.mp3
+76:tracks/Fleet Foxes - Blue Ridge Mountains.mp3
+77:tracks/Fleet Foxes - Mykonos.mp3
+78:tracks/Hyper Potions - Friends.mp3
+79:tracks/Spoon - The Underdog.mp3
+80:tracks/Ramin Djawadi - Light of the Seven.mp3
+81:tracks/Ramin Djawadi - Spoils of War, Pt. 1.mp3
+82:tracks/Jet - Are You Gonna Be My Girl.mp3
+83:tracks/The Postal Service - Such Great Heights.mp3
+84:tracks/Mr Jukes, BJ the Chicago Kid - Angels  Your Love.mp3
+85:tracks/Basia Bulat - La La Lie.mp3
+86:tracks/Modest Mouse - The World at Large.mp3
+87:tracks/Q. Lazzarus - Goodbye Horses (extended version).mp3
+88:tracks/The National - Graceless.mp3
+89:tracks/Tom Jones - Delilah.mp3
+90:tracks/Duran Duran - Perfect Day.mp3
+91:tracks/The Beach Boys - Good Vibrations.mp3
+92:tracks/Ellie Goulding - Hanging On (edit).mp3
+93:tracks/Paramore - Hard Times.mp3
+94:tracks/Dan Harmon - Ep 221 feat. Babes.mp3
+95:tracks/William Shatner - Together.mp3
+96:tracks/ミラクルミュージカル - Dream Sweet in Sea Major.mp3
+97:tracks/The Octopus Project - Fuguefat.mp3
+98:tracks/Radiohead - High & Dry.mp3
+99:tracks/Stan Rogers - Barrett's Privateers.mp3
+100:tracks/Aesop Rock - Hot Dogs.mp3
+101:tracks/The Smiths - I Know It's Over.mp3
+102:tracks/John Powell - This Is Berk.mp3
+103:tracks/Joe Hisaishi - Sulliman's Magic Square Return to the Castle.mp3
+104:tracks/The Darkness - I Believe in a Thing Called Love (video).mp3
+105:tracks/U2 - I Will Follow.mp3
+106:tracks/Cigarettes After Sex - Affection.mp3
+107:tracks/Roberto Pregadio - Ballata per un pistolero.mp3
+108:tracks/Kodaline - High Hopes.mp3
+109:tracks/梅林茂 - Yumeji's Theme.mp3
+110:tracks/Clams Casino - I'm God.mp3
+111:tracks/Heinz Kiessling - Captain's Table.mp3
+112:tracks/Hey Ocean! - Alley Ways.mp3
+113:tracks/Chet Faker - Gold.mp3
+114:tracks/BADBADNOTGOOD feat. Colin Stetson - Confessions, Pt. II.mp3
+115:tracks/The Flashbulb - Autumn Insomnia Session.mp3
+116:tracks/Alain Goraguer - Terr et Tiwa.mp3
+117:tracks/Hugo Kant - In the Woods.mp3
+118:tracks/Whitehorse - Sweet Disaster.mp3
+119:tracks/In Love With A Ghost - We've Never Met But, Can We Have a Coffee or Something.mp3
+120:tracks/Depeche Mode - Little 15.mp3
+121:tracks/Shakira - Ojos Así.mp3
+122:tracks/The Kinks - This Time Tomorrow.mp3
+123:tracks/Joy Again - Looking Out for You.mp3
+124:tracks/Air - Alone in Kyoto.mp3
+125:tracks/The Flashbulb - An Imperfect Song at a Gig That Never Existed.mp3
+126:tracks/Blonde Redhead - For the Damaged Coda.mp3
+127:tracks/The Revivalists - Wish I Knew You.mp3
+128:tracks/Philip Glass - Mishima  Opening.mp3
+129:tracks/Moderat - Rusty Nails.mp3
+130:tracks/Moderat - A New Error.mp3
+131:tracks/Digitalism - Blitz.mp3
+132:tracks/Boy & Bear - Milk & Sticks.mp3
+133:tracks/The Killers - Mr Brightside.mp3
+134:tracks/Counting Crows - Mr. Jones.mp3
+135:tracks/Unknown Mortal Orchestra - Multi-Love.mp3
+136:tracks/Unknown Mortal Orchestra - Necessary Evil.mp3
+137:tracks/Editors - Munich.mp3
+138:tracks/Saint Motel - My Type.mp3
+139:tracks/Dance With the Dead - Dressed to Kill.mp3
+140:tracks/I Monster - Heaven.mp3
+141:tracks/Clean Bandit feat. Jess Glynne - Rather Be.mp3
+142:tracks/Coconut Records - West Coast.mp3
+143:tracks/The Beatles - A Day in the Life.mp3
+144:tracks/Shura - What's It Gonna Be.mp3
+145:tracks/The Lumineers - Ophelia.mp3
+146:tracks/Dance With the Dead - Hell Ride.mp3
+147:tracks/Ammar Dadizadeh and Zohreh Hassannia - Into The Unknown (Cover).mp3
+148:tracks/The Blasting Company - Over the Garden Wall.mp3
+149:tracks/Chelsea Wolfe - The Warden.mp3
+150:tracks/Coldplay - Trouble.mp3
+151:tracks/KC Roberts & the Live Revolution - The Load.mp3
+152:tracks/The Tragically Hip - Poets.mp3
+153:tracks/Gorillaz - Empire Ants.mp3
+154:tracks/Port Cities - In the Dark.mp3
+155:tracks/The Walker Brothers - The Sun Ain't Gonna Shine Anymore.mp3
+156:tracks/New Order - Age of Consent.mp3
+157:tracks/Marina and the Diamonds - Lies (acoustic).mp3
+158:tracks/La Femme - Sur la planche 2013.mp3
+159:tracks/Autoheart - Moscow.mp3
+160:tracks/raybaboon - Everything Falls Apart.mp3
+161:tracks/Porter Robinson - Flicker (Tomggg remix).mp3
+162:tracks/Childish Gambino - Redbone.mp3
+163:tracks/Takuya Kuroda - Rising Son.mp3
+164:tracks/SebastiAn - Walkman.mp3
+165:tracks/Fleetwood Mac - I Don't Want to Know.mp3
+166:tracks/Milky Chance - Flashed Junk Mind.mp3
+167:tracks/Danny Elfman - Edward Scissorhands.mp3
+168:tracks/Brand New - Lit Me Up.mp3
+169:tracks/Glue - Winners Never Stop.mp3
+170:tracks/Rainbow Kitten Surprise - Seven.mp3
+171:tracks/Deftones - Sextape.mp3
+172:tracks/Bronze Radio Return - Shake, Shake, Shake.mp3
+173:tracks/Silversun Pickups - Lazy Eye.mp3
+174:tracks/The Shins - Simple Song.mp3
+175:tracks/Sing Street - Drive It Like You Stole It.mp3
+176:tracks/Sixpence None the Richer - There She Goes.mp3
+177:tracks/The National - The System Only Dreams in Total Darkness.mp3
+178:tracks/The National - I'll Still Destroy You.mp3
+179:tracks/Cygnets - Lilya Forever.mp3
+180:tracks/The Killers - Somebody Told Me.mp3
+181:tracks/Jason Collett - Song And Dance Man.mp3
+182:tracks/Bomb Boy - Cascade Cave Zone, Act 1 and 2.mp3
+183:tracks/Secret Service - Flash in the Night.mp3
+184:tracks/Fountains of Wayne - Stacy's Mom.mp3
+185:tracks/Childish Gambino - Sober.mp3
+186:tracks/New Order - Elegia.mp3
+187:tracks/TOPS - Cutlass Cruiser.mp3
+188:tracks/Kyu Sakamoto - Sukiyaki.mp3
+189:tracks/Ennio Morricone - L'estasi dell'oro.mp3
+190:tracks/Basia Bulat - Tall Tall Shadow.mp3
+191:tracks/Wheatus - Teenage Dirtbag.mp3
+192:tracks/Car Seat Headrest - Drunk DriversKiller Whales.mp3
+193:tracks/Stu Phillips & Glen Larson - Knight Rider.mp3
+194:tracks/Sufjan Stevens - Futile Devices.mp3
+195:tracks/Explosions in the Sky - Your Hand in Mine.mp3
+196:tracks/Johnny Cash - (Ghost) Riders in the Sky.mp3
+197:tracks/Postmodern Jukebox starring Haley Reinhart - Creep.mp3
+198:tracks/Beirut - The Penalty.mp3
+199:tracks/Toh Kay - With Any Sort of Certainty.mp3
+200:tracks/Taylor Swift feat. The Civil Wars - Safe & Sound.mp3
+201:tracks/Aesop Rock - Rings.mp3
+202:tracks/Spindrift - The Legend of God's Gun.mp3
+203:tracks/Seu Jorge - O Astronauta de Mármore (Starman).mp3
+204:tracks/Matchbox Twenty - 3AM.mp3
+205:tracks/Giorgio Moroder - Ivory Tower.mp3
+206:tracks/Rah Rah - Prairie Girl.mp3
+207:tracks/Jerry Martin - Let's Go Shopping [buy mode].mp3
+208:tracks/River City Extension - Something Salty, Something Sweet.mp3
+209:tracks/The Who - Happy Jack.mp3
+210:tracks/Semisonic - Closing Time.mp3
+211:tracks/Alt-J - Hunger of the Pine.mp3
+212:tracks/Stella Donnelly - Boys Will Be Boys.mp3
+213:tracks/Danny Elfman - What's This.mp3
+214:tracks/Tom's Story - Anchors.mp3
+215:tracks/Darren Korb - Vanishing Point.mp3
+216:tracks/Carpenter Brut - Le Perv.mp3
+217:tracks/Carpenter Brut - Turbo Killer.mp3
+218:tracks/CHVRCHES - Do I Wanna Know.mp3
+219:tracks/Daft Punk - The Son of Flynn.mp3
+220:tracks/Electric Guest - Troubleman.mp3
+221:tracks/Shad - Rose Garden.mp3
+222:tracks/Interpol - Obstacle 1.mp3
+223:tracks/Grandaddy - A.M. 180.mp3
+224:tracks/Joy Division - Disorder.mp3
+225:tracks/Joy Division - Shadowplay.mp3
+226:tracks/The Cars - Tonight She Comes.mp3
+227:tracks/The Handsome Family - Far From Any Road.mp3
+228:tracks/GoGo Penguin - Hopopono.mp3
+229:tracks/Homeboy Sandman - Clarity.mp3
+230:tracks/Rah Rah - Chip Off The Heart.mp3
+231:tracks/Rufus Wainwright - Oh What a World.mp3
+232:tracks/Cuff the Duke - It's All A Blur.mp3
+233:tracks/Deadhorse - No Particular Night or Morning.mp3
+234:tracks/Weezer - Buddy Holly.mp3
+235:tracks/Ramin Djawadi - Paint It Black.mp3
+236:tracks/George Harrison - What Is Life.mp3
+237:tracks/JJ and The Pillars - The Wolves.mp3
+238:tracks/The Killers - The Man.mp3
+239:tracks/Portugal. The Man - Feel It Still.mp3
+240:tracks/WALK THE MOON - Shut Up and Dance.mp3
+241:tracks/Toh Kay - The Man With the Skeleton Arms.mp3
 song_begin: http://cbc_r2_vcr.akacast.akamaistream.net/7/773/451661/v1/rc.akacast.akamaistream.net/cbc_r2_vcr
 Name: CBC R2 VCR
 mtime: 0
 song_end
 song_begin: http://stream.radio.co/s98f81d47e/listen
-Title: Hall & Oates - I Can't Go For That (Pomo Remix)
+Title: FKJ - Between Moods
 Name: Poolside FM
 mtime: 0
 song_end

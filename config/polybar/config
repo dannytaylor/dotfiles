@@ -26,8 +26,8 @@ margin-bottom = 0
 [bar/top]
 enable-ipc = true
 monitor = ${env:MONITOR:DisplayPort-0}
-width = 2560
-height = 24
+width = 2280
+height = 25
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -37,7 +37,7 @@ underline-size = 0
 overline-color = ${colors.linecolor}
 overline-size = 2
 
-border-bottom-size = 1
+border-bottom-size = 0
 border-bottom-color = ${colors.bordercolor}
 
 padding-left = 0
@@ -48,37 +48,6 @@ module-margin-right = 2
 font-0 = lime:pixelsize=10;2
 font-1 = siji:pixelsize=10;2
 font-2 = Monospace:size=8;2
-
-tray-position = right
-
-; If true, the bar will not shift its
-; contents when the tray changes
-tray-detached = false
-
-; Tray icon max size
-tray-maxsize = 16
-
-; Enable pseudo transparency
-; Will automatically be enabled if a fully transparent
-; background color is defined using `tray-background`
-tray-transparent = false
-
-; Background color for the tray container
-; By default the tray container will use the bar
-; background color.
-; Note: 32 bit alpha blending is not supported.
-tray-background = ${root.background}
-
-; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
-tray-offset-x = 0
-tray-offset-y = 0
-
-; Pad the sides of each tray icon
-tray-padding = 8
-
-; Scale factor for tray clients
-tray-scale = 1.0
-
 
 modules-left = ewmh xwindow
 ;modules-center = volume 
@@ -341,7 +310,7 @@ format-online-prefix-foreground = #555555
 format-online-spacing = 0
 format-online-background = #ee333333
 format-online-underline = #cc333333
-format-online-padding = 4
+format-online-padding = 2
 
 format-offline = <label-offline>
 format-offline-foreground = #777

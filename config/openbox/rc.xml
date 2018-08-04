@@ -33,7 +33,7 @@
   </placement>
   <theme>
     <name>201F</name>
-    <titleLayout>LC</titleLayout>
+    <titleLayout>IMC</titleLayout>
     <!--
       avaible characters are NDSLIMC, each can occur at most once.
       N: window icon

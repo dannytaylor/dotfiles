@@ -163,14 +163,14 @@
     close = ctrl+space
     
     # Close all notifications.
-    close_all = ctrl+shift+space
+    #close_all = ctrl+shift+space
     
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1".
     history = ctrl+shift+BackSpace
     
-    # Context menu.
+    # Context
     context = ctrl+shift+period
 
 [urgency_low]

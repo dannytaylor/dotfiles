@@ -1,0 +1,2 @@
+export PATH=/home/dt/.luaver/luarocks/2.3.0_5.1/bin:/home/dt/.luaver/luajit/2.0.5/bin:/home/dt/.luaver/lua/5.1.5/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dt/.local/bin/:/home/dt/bin:/home/dt/bin/pico-8:/home/dt/bin/amulet:$PATH
+unset QT_STYLE_OVERRIDE  

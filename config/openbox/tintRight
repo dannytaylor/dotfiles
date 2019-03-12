@@ -7,7 +7,7 @@ border_color = #555555 100
 # Panel
 panel_monitor = 2
 panel_position = top right horizontal
-panel_size = 280 25
+panel_size = 328 32
 panel_margin = 0 0
 panel_padding = 8 0 4
 panel_dock = 0
@@ -21,5 +21,5 @@ systray = 1
 systray_padding = 0 4 8
 systray_sort = ascending
 systray_background_id = 0
-systray_icon_size = 24
+systray_icon_size = 22
 systray_icon_asb = 93 0 0

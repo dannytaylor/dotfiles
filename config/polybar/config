@@ -26,8 +26,8 @@ margin-bottom = 0
 [bar/top]
 enable-ipc = true
 monitor = ${env:MONITOR:DisplayPort-0}
-width = 2280
-height = 25
+width = 2232
+height = 32
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -35,24 +35,26 @@ foreground = ${colors.foreground}
 underline-color = ${colors.linecolor}
 underline-size = 0
 overline-color = ${colors.linecolor}
-overline-size = 2
+overline-size = 3
 
 border-bottom-size = 0
 border-bottom-color = ${colors.bordercolor}
 
 padding-left = 0
 padding-right = 0
-module-margin-left = 1
+padding-top = 4
+module-margin-left = 2
 module-margin-right = 2
 
-font-0 = lime:pixelsize=10;2
-font-1 = siji:pixelsize=10;2
-font-2 = Monospace:size=8;2
+font-0 = TeX Gyre Heroes:pixelsize=11;3
+font-1 = Material Icons:pixelsize=12;4
+font-2 = Roboto:size=8;2
 
 modules-left = ewmh xwindow
 ;modules-center = volume 
 modules-center = date weather
-modules-right =  cpu memory vpncheck volume mpd 
+modules-right = volume mpd 
+;modules-right =  cpu memory volume mpd 
 
 
 
@@ -174,14 +176,14 @@ label-visible-padding = ${module/bspwm.label-empty-padding}
 type = internal/cpu
 interval = 2
 label = %{A1:guake -t &:}%percentage%%{A}%
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = #666
 
 [module/memory]
 type = internal/memory
 interval = 2
 label = %{A1:guake -t &:}%percentage_used%%{A}%
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = #666
 
 [module/wifi]
@@ -226,7 +228,7 @@ label-connected = %local_ip%
 
 [module/date]
 type = internal/date
-label = %{O248}%{A1:gsimplecal&:} %{F#555555} %{F-}%date% %time% %{A}
+label =%{O248}%{A1:gsimplecal&:}%{F#555555}%{F-}%date% %time% %{A}
 date = %d %b
 time = %H:%M
 interval = 30
@@ -250,16 +252,16 @@ headphone-id = 9
 
 format-volume = %{A3:pavucontrol&:}<ramp-volume><label-volume>%{A}
 label-volume =
-label-volume-foreground = ${root.foreground}
+label-volume-foreground =${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = ""
 format-muted-foreground = #777
 label-muted = sound muted
 
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
 ramp-volume-foreground = #666
 
 ramp-headphones-0 = 
@@ -323,14 +325,14 @@ label-song-ellipsis = true
 label-time-foreground = #777
 
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+icon-prev =
+icon-stop =
+icon-play =
+icon-pause =
+icon-next =
 
-icon-random = 
-icon-repeat = 
+icon-random =
+icon-repeat =
 
 toggle-on-foreground = ${colors.accent}
 toggle-off-foreground = #777
@@ -407,7 +409,7 @@ label-indicator-background = ${colors.accent}
 
 [module/xwindow]
 type = internal/xwindow
-format = %{A1:skippy-xd:}%{F#e60053}%{F-} <label>%{A}
+format = %{A1:skippy-xd:} %{F#e60053} %{F-} <label>%{A}
 label-maxlen = 75
 
 [module/counter]
@@ -429,7 +431,7 @@ format-prefix-foreground = #5b
 type = custom/script
 interval = 600
 format = <label>
-format-prefix = ""
+format-prefix =   
 format-prefix-foreground = #555555
 exec = ~/.config/polybar/weather
 

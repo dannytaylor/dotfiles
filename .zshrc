@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/dt/.oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -93,12 +93,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#[ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
+#[ -s ~/.luaver/completions/luaver.bash ] && . 
+#~/.luaver/completions/luaver.bash
+
+
+#export QT_STYLE_OVERRIDE="gtk2"
+#export QT_QPA_PLATFORMTHEME=qt5ct
+
+
+PATH="$PATH:$HOME/.local/bin/:$HOME/bin:$HOME/bin/pico-8:$HOME/bin/amulet"
 
 [ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
-#[ -s ~/.luaver/completions/luaver.bash ] && . ~/.luaver/completions/luaver.bash
 
-#export QT_STYLE_OVERRIDE='gtk2'
-QT_QPA_PLATFORMTHEME=qt5ct
-
-
-PATH="$PATH:$HOME/bin/amulet"

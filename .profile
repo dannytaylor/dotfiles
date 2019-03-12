@@ -20,3 +20,7 @@ fi
 PATH="$HOME/bin:$HOME/.local/bin:$PATH:$HOME/bin/amulet:$HOME/bin/pico-8"
 
 xset fp+ "/usr/share/fonts/X11/misc/artwiz/" &
+
+#export QT_STYLE_OVERRIDE="gtk2"
+#export QT_QPA_PLATFORMTHEME=qt5ct
+
